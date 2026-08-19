@@ -1,0 +1,92 @@
+source_csv_row,status,raw_response,normalized_standards,excluded_or_unverified_identifiers,normalization_notes
+4,missing,,,,
+5,missing,,,,
+6,missing,,,,
+7,missing,,,,
+8,missing,,,,
+9,missing,,,,
+10,coded_with_exclusions,"ERC-20, 721, 1155, 4333, 7702, 8004",ERC-20; ERC-721; ERC-1155; ERC-8004; EIP-7702,ERC-4333,721 -> ERC-721 (bare identifier); 1155 -> ERC-1155 (bare identifier); 7702 -> EIP-7702 (bare identifier); 8004 -> ERC-8004 (bare identifier)
+11,coded,"ERC-20, ERC-721, ERC-4337, ERC-1559",ERC-20; ERC-721; ERC-4337; EIP-1559,,ERC-1559 -> EIP-1559 (family normalization)
+12,coded,"ERC20, ERC721, ERC1155, ERC712, ERC5792,",ERC-20; ERC-721; ERC-1155; ERC-5792; EIP-712,,ERC712 -> EIP-712 (family normalization)
+13,coded,ERC-20,ERC-20,,
+14,coded,"ERC-20, ERC-721, ERC-1155, ERC-4337",ERC-20; ERC-721; ERC-1155; ERC-4337,,
+15,missing,,,,
+16,coded,"ERC-20,ERC-721",ERC-20; ERC-721,,
+17,coded,"ERC-20, ERC-721",ERC-20; ERC-721,,
+18,missing,,,,
+19,missing,,,,
+20,coded,"ERC20, ERC721",ERC-20; ERC-721,,
+21,coded,"ERC20, ERC1155, ERC721, ERC137",ERC-20; ERC-721; ERC-1155; EIP-137,,ERC137 -> EIP-137 (family normalization)
+22,coded,"ERC20, ERC721, ERC1155",ERC-20; ERC-721; ERC-1155,,
+23,coded,"ERC-1967 (Proxy Pattern)
+EIP-712 (Signature Standard)
+ERC-165 (Interface Detection)
+ERC-1271 (Signature Validation)
+ERC-20 (Base Token Interface)
+EIP-3009 (aka “transferWithAuthorization”)
+ERC-2612 (Approve via signature)
+EIP-7702 (Gasless Relayer)",ERC-20; ERC-165; ERC-1271; ERC-1967; ERC-2612; EIP-712; EIP-3009; EIP-7702,,
+24,coded,ERC 20,ERC-20,,
+25,coded,ERC20,ERC-20,,
+26,coded_with_exclusions,"EIP7702, EIP1195, EIP1155, EIP720",ERC-1155; EIP-7702,EIP-1195; EIP-720,EIP1155 -> ERC-1155 (family normalization)
+27,coded,"ERC20, ERC721, ERC4337, ERC1155",ERC-20; ERC-721; ERC-1155; ERC-4337,,
+28,missing,,,,
+29,missing,,,,
+30,coded,"ERC721, ERC20",ERC-20; ERC-721,,
+31,missing,,,,
+32,coded,ERC20,ERC-20,,
+33,coded,ERC 20,ERC-20,,
+34,coded,ERC20,ERC-20,,
+35,missing,,,,
+36,coded,ERC 20,ERC-20,,
+37,coded,"ERC-20, ERC-721, ERC-1155, ERC-7702, ERC-712, ERC-4626, ERC-4337, ERC-2612, ERC-2981",ERC-20; ERC-721; ERC-1155; ERC-2612; ERC-2981; ERC-4337; ERC-4626; EIP-712; EIP-7702,,ERC-7702 -> EIP-7702 (family normalization); ERC-712 -> EIP-712 (family normalization)
+38,missing,,,,
+39,missing,,,,
+40,missing,,,,
+41,missing,,,,
+42,missing,,,,
+43,coded,"ERC20, ERC721, ERC1155",ERC-20; ERC-721; ERC-1155,,
+44,explicit_none,NA,,,
+45,coded,"erc-20, erc-721, erc-1155, erc-712",ERC-20; ERC-721; ERC-1155; EIP-712,,erc-712 -> EIP-712 (family normalization)
+46,explicit_none,none,,,
+47,coded_with_exclusions,"Interacted with many ERC standards during development like ERC20, 712, 721, 1997, 1155, 2612, 2981, 4337, 5805, 4626, 4772.",ERC-20; ERC-721; ERC-1155; ERC-2612; ERC-2981; ERC-4337; ERC-4626; ERC-5805; EIP-712,ERC-1997; ERC-4772,712 -> EIP-712 (bare identifier); 721 -> ERC-721 (bare identifier); 1155 -> ERC-1155 (bare identifier); 2612 -> ERC-2612 (bare identifier); 2981 -> ERC-2981 (bare identifier); 4337 -> ERC-4337 (bare identifier); 5805 -> ERC-5805 (bare identifier); 4626 -> ERC-4626 (bare identifier)
+48,coded,"20, 721, 4337",ERC-20; ERC-721; ERC-4337,,20 -> ERC-20 (bare identifier); 721 -> ERC-721 (bare identifier); 4337 -> ERC-4337 (bare identifier)
+49,coded,"Erc20, erc721, erc1155, erc2612",ERC-20; ERC-721; ERC-1155; ERC-2612,,
+50,coded,"Erc20,721",ERC-20; ERC-721,,721 -> ERC-721 (bare identifier)
+51,explicit_none,0,,,
+52,coded,"ERC20, ERC4626",ERC-20; ERC-4626,,
+53,coded,"ERC-1822 (UUPS) is the most frequent one. Others include: ERC-165, ERC-721, ERC-1155, ERC-1271, ERC-7702, ERC-4337.",ERC-165; ERC-721; ERC-1155; ERC-1271; ERC-1822; ERC-4337; EIP-7702,,ERC-7702 -> EIP-7702 (family normalization)
+54,coded,"ERC-20,ERC-721",ERC-20; ERC-721,,
+55,coded,ERC-721,ERC-721,,
+56,coded,"ERC20, ERC721 , ERC5792, ERC712",ERC-20; ERC-721; ERC-5792; EIP-712,,ERC712 -> EIP-712 (family normalization)
+57,missing,,,,
+58,missing,,,,
+59,missing,,,,
+60,noncodable_text,Non-fungible tokens,,,
+61,coded,"ERC-20, ERC-721, ERC-1155, ERC-777,",ERC-20; ERC-721; ERC-777; ERC-1155,,
+62,coded,"ERC-20, ERC-721, ERC-777, ERC-4626",ERC-20; ERC-721; ERC-777; ERC-4626,,
+63,coded,"ERC20, ERC721, ERC1155, ERC4626",ERC-20; ERC-721; ERC-1155; ERC-4626,,
+64,coded,"ERC721, ERC11155, ERC4626, ERC777",ERC-721; ERC-777; ERC-1155; ERC-4626,,ERC11155 -> 1155 (documented typographical correction)
+65,noncodable_text,Cryptocurrencies,,,
+66,coded,"have frequently implemented and worked with several key ERC standards in my smart contract projects, including ERC-20 for fungible tokens, ERC-721 for non-fungible tokens (NFTs), ERC-1155 for multi-token standards, ERC-4626 for tokenized vaults, and ERC-2981 for NFT royalty management. These standards form the foundation of most DeFi and NFT-related projects I have contributed to over the past four to five years",ERC-20; ERC-721; ERC-1155; ERC-2981; ERC-4626,,
+67,explicit_none,N/A,,,
+68,coded,"ERC-20, 721, 1155, 4337, 4626",ERC-20; ERC-721; ERC-1155; ERC-4337; ERC-4626,,721 -> ERC-721 (bare identifier); 1155 -> ERC-1155 (bare identifier); 4337 -> ERC-4337 (bare identifier); 4626 -> ERC-4626 (bare identifier)
+69,coded,Erc-20 and erc-721,ERC-20; ERC-721,,
+70,coded,ERC-20 and ERC-721,ERC-20; ERC-721,,
+71,coded,ERC-20,ERC-20,,
+72,noncodable_text,Ive worked with security tooling needs with Ethereum people pay us through cryptocurrency often.,,,
+73,coded,"Fungible Token Standard: ERC-20, Non-Fungible Token Standard: ERC-721, Multi-Token Standard: ERC-1155",ERC-20; ERC-721; ERC-1155,,
+74,coded,"I don't retain a persistent history of deployed contracts across sessions, so I can't point to a track record the way a developer would, but I have strong working knowledge of and can write, review, or debug code for the standards most relevant to real-world use: ERC-20 (fungible tokens), ERC-721 and ERC-1155 (NFTs and multi-tokens), ERC-165 (interface detection), ERC-2612 (permit/gasless approvals), ERC-4626 (tokenized vaults), ERC-4337 (account abstraction), and the ERC-1967/1822 proxy standards for upgradeability — with ERC-20, ERC-721, and ERC-4337 being the ones I interact with most frequently in practice.",ERC-20; ERC-165; ERC-721; ERC-1155; ERC-1822; ERC-1967; ERC-2612; ERC-4337; ERC-4626,,1822 -> ERC-1822 (bare identifier)
+75,coded,"ERC-20
+ERC-721
+ERC-165",ERC-20; ERC-165; ERC-721,,
+76,coded,"I’ve worked frequently with ERC-20 tokens, ERC-721 and ERC-1155 NFTs, ERC-165 interface detection, ERC-2981 royalties, and ERC-4626 tokenized vaults.",ERC-20; ERC-165; ERC-721; ERC-1155; ERC-2981; ERC-4626,,
+77,coded,"ECR -4337
+ECR-721",ERC-721; ERC-4337,,ECR -4337 -> ERC-4337 (prefix typo); ECR-721 -> ERC-721 (prefix typo)
+78,coded_with_exclusions,ERC 20 and 75,ERC-20,ERC-75,
+79,coded_with_exclusions,"ERC-20, ERC-721, ERC-1155, ERC-1400, ERC-4626, ERC-4627, ERC-777, ERC-1337, ERC-1967, ERC-2535, ERC-4626.",ERC-20; ERC-721; ERC-777; ERC-1155; ERC-1337; ERC-1400; ERC-1967; ERC-2535; ERC-4626,ERC-4627,
+80,coded,"ERC-20, ERC-721, ERC-165, ERC-4626, ERC-1155",ERC-20; ERC-165; ERC-721; ERC-1155; ERC-4626,,
+81,noncodable_text,Haha,,,
+82,missing,,,,
+83,missing,,,,
+84,missing,,,,

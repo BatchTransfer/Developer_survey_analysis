@@ -1,0 +1,136 @@
+{
+  "input_file": "Documents/ERC-analysis-master/erc-classify/python/Developer_survey_analysis/Labels_ERC-analysis :  Developer interviews_August 11, 2026_23.41.csv",
+  "selected_column": "Q4",
+  "detected_delimiter": ",",
+  "metadata_rows_skipped": 2,
+  "survey_rows": 81,
+  "nonempty_responses": 57,
+  "missing_responses": 24,
+  "explicit_none_responses": 4,
+  "codable_responses": 49,
+  "unverified_only_responses": 0,
+  "noncodable_text_responses": 4,
+  "counting_unit": "respondents; each standard is counted at most once per response",
+  "include_unverified": false,
+  "user_aliases": {},
+  "documented_number_aliases": {
+    "11155": 1155
+  },
+  "standard_counts": [
+    {
+      "standard": "ERC-20",
+      "respondent_count": 44,
+      "raw_mention_count": 45
+    },
+    {
+      "standard": "ERC-721",
+      "respondent_count": 37,
+      "raw_mention_count": 38
+    },
+    {
+      "standard": "ERC-1155",
+      "respondent_count": 23,
+      "raw_mention_count": 23
+    },
+    {
+      "standard": "ERC-4626",
+      "respondent_count": 12,
+      "raw_mention_count": 13
+    },
+    {
+      "standard": "ERC-4337",
+      "respondent_count": 10,
+      "raw_mention_count": 11
+    },
+    {
+      "standard": "ERC-165",
+      "respondent_count": 6,
+      "raw_mention_count": 6
+    },
+    {
+      "standard": "EIP-712",
+      "respondent_count": 6,
+      "raw_mention_count": 6
+    },
+    {
+      "standard": "ERC-2612",
+      "respondent_count": 5,
+      "raw_mention_count": 5
+    },
+    {
+      "standard": "EIP-7702",
+      "respondent_count": 5,
+      "raw_mention_count": 5
+    },
+    {
+      "standard": "ERC-777",
+      "respondent_count": 4,
+      "raw_mention_count": 4
+    },
+    {
+      "standard": "ERC-2981",
+      "respondent_count": 4,
+      "raw_mention_count": 4
+    },
+    {
+      "standard": "ERC-1967",
+      "respondent_count": 3,
+      "raw_mention_count": 3
+    },
+    {
+      "standard": "ERC-1271",
+      "respondent_count": 2,
+      "raw_mention_count": 2
+    },
+    {
+      "standard": "ERC-1822",
+      "respondent_count": 2,
+      "raw_mention_count": 2
+    },
+    {
+      "standard": "ERC-5792",
+      "respondent_count": 2,
+      "raw_mention_count": 2
+    },
+    {
+      "standard": "ERC-1337",
+      "respondent_count": 1,
+      "raw_mention_count": 1
+    },
+    {
+      "standard": "ERC-1400",
+      "respondent_count": 1,
+      "raw_mention_count": 1
+    },
+    {
+      "standard": "ERC-2535",
+      "respondent_count": 1,
+      "raw_mention_count": 1
+    },
+    {
+      "standard": "ERC-5805",
+      "respondent_count": 1,
+      "raw_mention_count": 1
+    },
+    {
+      "standard": "ERC-8004",
+      "respondent_count": 1,
+      "raw_mention_count": 1
+    },
+    {
+      "standard": "EIP-137",
+      "respondent_count": 1,
+      "raw_mention_count": 1
+    },
+    {
+      "standard": "EIP-1559",
+      "respondent_count": 1,
+      "raw_mention_count": 1
+    },
+    {
+      "standard": "EIP-3009",
+      "respondent_count": 1,
+      "raw_mention_count": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "likert_columns": [],
+  "non_likert_columns": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4"
+  ],
+  "reverse_worded_columns": [],
+  "constructs": {},
+  "minimum_scale_answered_fraction": 0.8,
+  "enable_sign_tests": false,
+  "familywise_alpha": 0.05,
+  "bootstrap_repetitions": 2000,
+  "random_seed": 20260812
+}

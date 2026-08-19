@@ -1,0 +1,48 @@
+[
+  {
+    "all_implementations": [
+      {
+        "function": "permit",
+        "implementation_location": "Line 76846-77247",
+        "parameters": {
+          "_owner": "address",
+          "_spender": "address",
+          "_value": "uint256",
+          "_deadline": "uint256",
+          "_v": "uint8",
+          "_r": "bytes32",
+          "_s": "bytes32"
+        },
+        "requirements": {
+          "deadline_check": false,
+          "timestamp_check": true,
+          "signature_validation": false,
+          "nonce_usage": false,
+          "domain_separator_usage": false,
+          "permit_function_exists": true,
+          "owner_check": false,
+          "spender_approval": false
+        },
+        "internal_calls": [
+          "permit",
+          "sloadImplementationSlotDataAsUint256",
+          "isSignatureVerificationPaused",
+          "getPointerToErc2612Storage",
+          "_hashTypedDataV4",
+          "_approve",
+          "getPointerToErc20CoreStorage"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC2612/ERC2612_contract_0x83C6D626E6416f40fcF267856250fB86c72E2342.sol"
+  }
+]

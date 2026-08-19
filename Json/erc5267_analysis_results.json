@@ -1,0 +1,1418 @@
+[
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 68890-69751",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "_EIP712Name",
+          "_EIP712Version"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0xa74f2ac044d9efa1768d44b6b29e8da575e564d2.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 51557-52114",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "_EIP712Name",
+          "toStringWithFallback",
+          "toString",
+          "byteLength",
+          "_EIP712Version"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0x6dbb70a4518fd58de67eb79d9096698265bf9702.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 36231-36788",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "_EIP712Name",
+          "toStringWithFallback",
+          "toString",
+          "byteLength",
+          "_EIP712Version"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0x3235bc7ed37c522ecfb171748a74001f15a0897e.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 41599-42232",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "toStringWithFallback",
+          "toString",
+          "byteLength"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0xaf1ae71302fbb102b89a7fb90b4ea7a55f8ee651.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 27358-27991",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "toStringWithFallback",
+          "toString",
+          "byteLength"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0xaf17109faa01f5efdf88c7f00b47c395431cb64a.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 36227-36860",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "toStringWithFallback",
+          "toString",
+          "log10"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0x22800f2d231a35a21a8e137073c642977ed98fc0.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 57128-57685",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "_EIP712Name",
+          "toStringWithFallback",
+          "toString",
+          "byteLength",
+          "_EIP712Version"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0xca566376e5e3ec9a08336b3eadaac23c675e0091.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 71675-72232",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "_EIP712Name",
+          "toStringWithFallback",
+          "toString",
+          "log10",
+          "_EIP712Version"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0xf9c7b5800255c7d8fa8bfe8ee880d0969d0097bd.sol"
+  },
+  {
+    "error": "safeBatchTransferFrom function not found",
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0xD25C0410B633877a8c18f013E32675439342d40C.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 64235-65096",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "_EIP712Name",
+          "_EIP712Version"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0x3c8d43a784ed2238b66f9823c02707c042e46213.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 84514-85147",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "toStringWithFallback",
+          "toString",
+          "log10"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0x5ec61c91c151e01b2150b8d7aee47bd67c5e326e.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 33945-34502",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "_EIP712Name",
+          "toStringWithFallback",
+          "toString",
+          "byteLength",
+          "_EIP712Version"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0xd57bb763c541f2ab0deee6b3fdc7a26912a8e1cb.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 19642-20275",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "toStringWithFallback",
+          "toString",
+          "byteLength"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0xc675749a8d23f0dd7b49b7a7e43e8eddcf5f2cea.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 41599-42232",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "toStringWithFallback",
+          "toString",
+          "byteLength"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0xf8c75f0ddb9d8baf114de3a72de7025e5d8c2990.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 68890-69751",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "_EIP712Name",
+          "_EIP712Version"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0xbb4d0178b4c51a2b91fff2b8f46fde4d37e9459c.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 108020-108577",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "_EIP712Name",
+          "toStringWithFallback",
+          "toString",
+          "byteLength",
+          "_EIP712Version"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0xe9e883f6f04a1901babcb96113ef80e32436454d.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 53637-54270",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "toStringWithFallback",
+          "toString",
+          "byteLength"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0x63dcce3d0fc4eb835cbbc8afff76e2ab7cd1e058.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 57128-57685",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "_EIP712Name",
+          "toStringWithFallback",
+          "toString",
+          "byteLength",
+          "_EIP712Version"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0x43efed14f58a2a21236fdc835941167d7b3c755a.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 41599-42232",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "toStringWithFallback",
+          "toString",
+          "byteLength"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0xc1d5d6683dcca3ca09dc85a924ba3b8b6c9297a6.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 61439-61996",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "_EIP712Name",
+          "toStringWithFallback",
+          "toString",
+          "byteLength",
+          "_EIP712Version"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0xa80221d067603e30060f75e2458aa361f8ee5402.sol"
+  },
+  {
+    "all_implementations": [
+      {
+        "function": "eip712Domain",
+        "implementation_location": "Line 114048-114909",
+        "parameters": {},
+        "requirements": {
+          "eip712Domain_function_exists": false,
+          "returns_correct_fields": false,
+          "typehash_declared": false,
+          "domain_separator_usage": false,
+          "fields": {
+            "valid": false,
+            "value": null,
+            "required_bits": {
+              "name": true,
+              "version": true,
+              "chainId": true,
+              "verifyingContract": true,
+              "salt": false,
+              "extensions": false
+            }
+          },
+          "name": {
+            "valid": false,
+            "immutable": false,
+            "non_empty": false
+          },
+          "version": {
+            "valid": false,
+            "immutable": false
+          },
+          "chainId": {
+            "valid": false,
+            "uses_block_chainid": false
+          },
+          "verifyingContract": {
+            "valid": false,
+            "uses_address_this": false,
+            "proxy_safe": false
+          },
+          "salt": {
+            "valid": false,
+            "non_zero": false
+          },
+          "extensions": {
+            "valid": false,
+            "non_empty": false
+          },
+          "warnings": [],
+          "critical_issues": []
+        },
+        "internal_calls": [
+          "_EIP712Name",
+          "_EIP712Version"
+        ],
+        "transfer_batch_event_found": false,
+        "on_received_check_found": false,
+        "all_requirements_met": false,
+        "some_requirements_met": false
+      }
+    ],
+    "summary": {
+      "total_implementations": 1,
+      "fully_compliant": 0,
+      "partially_compliant": 0
+    },
+    "file": "/Users/test5267k/Documents/ERC-analysis-master/erc-classify/ERC_Solidity_Source/ERC5267/ERC5267_0xdd9eb6b26bed3be56198649b0c0fe8302e7fb9e8.sol"
+  }
+]

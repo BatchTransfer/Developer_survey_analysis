@@ -1,0 +1,13 @@
+[
+  {
+    "all_implementations": [
+      {
+        "requirements": {
+          "allowance_check": true,
+          "conditional_allowance_check": false
+        }
+      }
+    ],
+    "file": "/Users/ashokk/Documents/ERC-analysis-master/erc-classify/erc20-transferFrom/test-6.sol"
+  }
+]

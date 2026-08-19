@@ -1,0 +1,35 @@
+{
+  "script_version": "2.1.0",
+  "analysis_timestamp_utc": "2026-08-13T02:39:09.256189+00:00",
+  "python_version": "3.9.19",
+  "platform": "macOS-15.6-x86_64-i386-64bit",
+  "packages": {
+    "pandas": "2.0.3",
+    "numpy": "1.24.3",
+    "scipy": "1.11.1",
+    "openpyxl": "3.1.5"
+  },
+  "inputs": {
+    "input_mode": "label_only",
+    "primary_file": "Labels_ERC-analysis :  Developer interviews_August 11, 2026_23.41.csv",
+    "primary_sha256": "413c52aca9e64fea6ef1bb9d4c9d882c929d02ccdb5e71ef08a6239f99a5e702",
+    "label_file": "Labels_ERC-analysis :  Developer interviews_August 11, 2026_23.41.csv",
+    "label_sha256": "413c52aca9e64fea6ef1bb9d4c9d882c929d02ccdb5e71ef08a6239f99a5e702"
+  },
+  "configuration": {
+    "likert_columns": [],
+    "non_likert_columns": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4"
+    ],
+    "reverse_worded_columns": [],
+    "constructs": {},
+    "minimum_scale_answered_fraction": 0.8,
+    "enable_sign_tests": false,
+    "familywise_alpha": 0.05,
+    "bootstrap_repetitions": 2000,
+    "random_seed": 20260812
+  }
+}
