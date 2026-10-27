@@ -1,0 +1,79 @@
+erc,title,status,created,requires
+20,Token Standard,Final,2015-11-19,
+165,Standard Interface Detection,Final,2018-01-23,214
+173,Contract Ownership Standard,Final,2018-06-07,
+223,Token with transaction handling model,Final,2017-05-03,
+712,Typed structured data hashing and signing,Final,2017-09-12,"155, 191"
+721,Non-Fungible Token Standard,Final,2018-01-24,165
+777,Token Standard,Final,2017-11-20,1820
+875,Simpler NFT standard with batching and native atomic swaps,Withdrawn,2018-02-08,
+884,DGCL Token,Stagnant,2018-02-14,
+998,Composable Non-Fungible Token,Draft,2018-07-07,"20, 165, 721"
+1155,Multi Token Standard,Final,2018-06-17,165
+1261,Membership Verification Token (MVT),Stagnant,2018-07-14,"165, 173"
+1271,Standard Signature Validation Method for Contracts,Final,2018-07-25,
+1363,Payable Token,Final,2018-08-30,"20, 165"
+1820,Pseudo-introspection Registry Contract,Final,2019-03-04,"165, 214"
+1948,Non-fungible Data Token,Stagnant,2019-04-18,721
+1996,Holdable Token,Stagnant,2019-04-10,20
+2018,Clearable Token,Stagnant,2019-04-30,1996
+2019,Fundable Token,Stagnant,2019-05-10,20
+2020,E-Money Standard Token,Stagnant,2019-05-10,"20, 1066, 1996, 2009, 2018, 2019, 2021"
+2021,Payoutable Token,Stagnant,2019-05-10,"20, 1066, 1996"
+2135,"Consumable Interface (Tickets, etc)",Final,2019-06-23,"165, 721, 1155"
+2612,Permit Extension for EIP-20 Signed Approvals,Final,2020-04-13,"20, 712"
+2981,NFT Royalty Standard,Final,2020-09-15,165
+3135,Exclusive Claimable Token,Stagnant,2020-08-10,20
+3440,ERC-721 Editions Standard,Stagnant,2021-04-20,"712, 721"
+3525,Semi-Fungible Token,Final,2020-12-01,"20, 165, 721"
+3589,Assemble assets into NFTs,Stagnant,2021-05-24,721
+3643,T-REX - Token for Regulated EXchanges,Final,2021-07-09,"20, 173"
+3754,A Vanilla Non-Fungible Token Standard,Stagnant,2021-08-21,
+4400,EIP-721 Consumable Extension,Final,2021-10-30,"165, 721"
+4494,Permit for ERC-721 NFTs,Stagnant,2021-11-25,"165, 712, 721"
+4519,Non-Fungible Tokens Tied to Physical Assets,Final,2021-12-03,"165, 721"
+4524,Safer ERC-20,Stagnant,2021-12-05,"20, 165"
+4626,Tokenized Vaults,Final,2021-12-22,"20, 2612"
+4675,Multi-Fractional Non-Fungible Tokens,Stagnant,2022-01-13,"165, 721"
+4906,EIP-721 Metadata Update Extension,Final,2022-03-13,"165, 721"
+4907,"Rental NFT, an Extension of EIP-721",Final,2022-03-11,"165, 721"
+4910,Royalty Bearing NFTs,Final,2022-03-14,"165, 721"
+4955,Vendor Metadata Extension for NFTs,Final,2022-03-29,"721, 1155"
+5006,"Rental NFT, NFT User Extension",Final,2022-04-12,"165, 1155"
+5007,"Time NFT, ERC-721 Time Extension",Final,2022-04-13,"165, 721"
+5023,Shareable Non-Fungible Token,Final,2022-01-28,165
+5169,Client Script URI for Token Contracts,Final,2022-05-03,"20, 165, 721, 777, 1155"
+5192,Minimal Soulbound NFTs,Final,2022-07-01,"165, 721"
+5267,Retrieval of EIP-712 domain,Final,2022-07-14,"155, 712, 2612"
+5380,ERC-721 Entitlement Extension,Final,2022-03-11,"165, 721, 1046"
+5484,Consensual Soulbound Tokens,Final,2022-08-17,"165, 721"
+5489,NFT Hyperlink Extension,Final,2022-08-16,"165, 721"
+5507,Refundable Tokens,Final,2022-08-19,"20, 165, 721, 1155"
+5521,Referable NFT,Final,2022-08-10,"165, 721"
+5528,Refundable Fungible Token,Final,2022-08-16,20
+5570,Digital Receipt Non-Fungible Tokens,Final,2022-09-01,721
+5585,ERC-721 NFT Authorization,Final,2022-08-15,721
+5606,Multiverse NFTs,Final,2022-09-06,"721, 1155"
+5615,ERC-1155 Supply Extension,Final,2023-05-25,1155
+5646,Token State Fingerprint,Final,2022-09-11,165
+5679,Token Minting and Burning,Final,2022-09-17,"20, 165, 721, 1155"
+5725,Transferable Vesting NFT,Final,2022-09-08,721
+5773,Context-Dependent Multi-Asset Tokens,Final,2022-10-10,"165, 721"
+6059,Parent-Governed Nestable Non-Fungible Tokens,Final,2022-11-15,"165, 721"
+6066,Signature Validation Method for NFTs,Final,2022-11-29,"165, 721, 1155, 1271, 5750"
+6105,No Intermediary NFT Trading Protocol,Final,2022-12-02,"20, 165, 721, 2981"
+6147,"Guard of NFT/SBT, an Extension of ERC-721",Final,2022-12-07,"165, 721"
+6150,Hierarchical NFTs,Final,2022-12-15,"165, 721"
+6220,Composable NFTs utilizing Equippable Parts,Final,2022-12-20,"165, 721, 5773, 6059"
+6239,Semantic Soulbound Tokens,Final,2022-12-30,"165, 721, 5192"
+6381,Public Non-Fungible Token Emote Repository,Final,2023-01-22,165
+6454,Minimal Transferable NFT detection interface,Final,2023-01-31,"165, 721"
+6492,Signature Validation for Predeploy Contracts,Final,2023-02-10,1271
+6672,Multi-redeemable NFTs,Final,2023-02-21,"165, 721"
+6808,Fungible Key Bound Token,Final,2023-03-31,20
+6809,Non-Fungible Key Bound Token,Final,2023-03-31,721
+6982,Efficient Default Lockable Tokens,Final,2023-05-02,"165, 721"
+7160,ERC-721 Multi-Metadata Extension,Final,2023-06-09,"165, 721"
+7231,Identity-aggregated NFT,Final,2023-06-25,"165, 721, 1271"
+7401,Parent-Governed Non-Fungible Tokens Nesting,Final,2023-07-26,"165, 721"
+7409,Public Non-Fungible Tokens Emote Repository,Final,2023-07-26,165
