@@ -17,13 +17,17 @@ Usage (from the repository root):
 import json
 import os
 import random
+import sys
 
 import pandas as pd
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "..", "validation_bytecodes.csv.gz")
-CONFIG = os.path.join(HERE, "..", "..", "Json", "erc_config_top50.json")
-OUT = os.path.join(HERE, "labelled_set.csv")
+# Pass --corrected to use the curated specification (Json/erc_specification_corrected.json).
+CORRECTED = "--corrected" in sys.argv
+CONFIG = os.path.join(HERE, "..", "..", "Json",
+                      "erc_specification_corrected.json" if CORRECTED else "erc_config_top50.json")
+OUT = os.path.join(HERE, "labelled_set_corrected.csv" if CORRECTED else "labelled_set.csv")
 N, SEED, THRESHOLD = 200, 42, 70
 
 cfg = json.load(open(CONFIG))
