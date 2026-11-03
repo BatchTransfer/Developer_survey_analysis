@@ -1,5 +1,30 @@
 # Labelled sets for classifier precision and recall
 
+## Single validation set (`validation_set.csv`), used in the paper
+
+One set measures both precision and recall. From the 4,712 validation
+contracts, 3,216 are flagged by the classifier or shown to deviate by the
+dispatcher disassembly. 200 of them are drawn at random (seed 42), one
+(contract, standard) pair each. Drawing from both sources lets the same set
+reveal false flags and missed deviations.
+
+- `reported_missing`: functions the classifier reports as missing
+- `truly_missing`: functions absent in the disassembly
+- `classifier_flagged`: whether the classifier flags that standard
+- `reference_agrees`: whether the disassembly also shows more than 70% but not all functions
+- `label`: `TP` if every reported missing function is absent in the disassembly, `FP` if not, `FN` if a true deviation is not flagged
+
+Results:
+
+- Precision: 200/200 flags correct, 100% (95% Wilson CI: 98.1-100%)
+- Recall: 194/194 true deviations flagged, 100% (95% Wilson CI: 98.1-100%)
+- In 6 flagged contracts (`reference_agrees` = False), the disassembly exposes 70% or fewer of the standard's functions, but the reported missing functions are still absent.
+
+Reproduce: `python validation/labelled_set/build_single_set.py`
+
+The two separate sets below were used in earlier drafts and are kept for reference.
+
+
 Both sets are drawn from the 4,712 validation contracts and labelled
 independently of the classifier, using an opcode-aligned disassembly of the
 function dispatcher (PUSH1-PUSH4 operand followed by EQ).
