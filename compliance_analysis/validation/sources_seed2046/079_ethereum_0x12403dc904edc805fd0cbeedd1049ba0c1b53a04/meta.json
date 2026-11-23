@@ -1,0 +1,7 @@
+{
+ "where": "sourcify",
+ "name": "MyToken",
+ "compiler": "0.3.0+commit.11d67369",
+ "impl": "",
+ "impl_where": ""
+}

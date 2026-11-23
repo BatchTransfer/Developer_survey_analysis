@@ -1,0 +1,7 @@
+{
+ "where": "sourcify",
+ "name": "AaveV3StrategyV1",
+ "compiler": "0.7.3+commit.9bfce1f6",
+ "impl": "",
+ "impl_where": ""
+}

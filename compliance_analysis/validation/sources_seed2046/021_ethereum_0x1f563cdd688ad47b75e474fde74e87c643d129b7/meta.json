@@ -1,0 +1,7 @@
+{
+ "where": "sourcify",
+ "name": "AssetWrapper",
+ "compiler": "0.8.3+commit.8d00100c",
+ "impl": "",
+ "impl_where": ""
+}

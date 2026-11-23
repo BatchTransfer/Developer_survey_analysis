@@ -1,0 +1,7 @@
+{
+ "where": "sourcify",
+ "name": "BlockchainCutiesToken",
+ "compiler": "0.4.24+commit.e67f0147",
+ "impl": "",
+ "impl_where": ""
+}

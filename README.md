@@ -14,7 +14,7 @@ The study comprises six interconnected stages:
    * Signature Construction Risks
    * System Integration Risks
 3. Survey of 72 smart-contract practitioners.
-4. Compliance analysis of 1.68 million bytecode-deduplicated contracts across Ethereum, BNB Chain, Polygon, and Avalanche.
+4. Compliance analysis of 3,808,540 deployed contracts across Ethereum, BNB Chain, Polygon, and Avalanche.
 5. Controlled exploit demonstrations on the Sepolia testnet.
 6. Evidence-based recommendations for developers, auditors, specification authors, and security-tool builders.
 
@@ -22,8 +22,12 @@ The study comprises six interconnected stages:
 
 ```text
 .
+├── compliance_analysis/
+│   └── Dispatcher-based ERC classifier, 3.8M results, validation sample, figures, and results workbook (see its README)
+├── erc_distribution/
+│   └── Specification creation years and per-ERC contract counts
 ├── Data/
-│   └── Processed and anonymized study data
+│   └── Source-code and transaction data for the ERC-20, ERC-2612, and ERC-1155 analyses
 ├── Json/
 │   └── Structured ERC specification requirements and dependency data
 ├── Labels_ERC-analysis_Developer-interviews_August-11-2026_analysis/
@@ -33,11 +37,9 @@ The study comprises six interconnected stages:
 ├── exploit_demonstration/
 │   └── Vulnerable contracts, deployment configurations, and Sepolia exploit evidence
 ├── python/
-│   └── Scripts for specification, survey, contract, and compliance analysis
+│   └── Scripts for survey, source-code, and transaction analysis
 ├── q4_erc_count_output/
-│   └── Per-chain and per-standard deployment-analysis results
-├── Algorithm.png
-│   └── Overview of the analysis algorithm
+│   └── Survey Q4: ERC standards reported by practitioners
 ├── Labels_ERC-analysis_Developer-interviews_August-11-2026_23.41.csv
 │   └── De-identified survey-analysis dataset
 ├── .gitignore
@@ -74,14 +76,11 @@ Agreement proportions classify “Agree” and “Strongly agree” as agreement
 
 ## Deployment Analysis
 
-The deployment analysis covers 1,682,782 bytecode-deduplicated contracts deployed from 2018 through December 2024 across:
+The deployment analysis covers 3,808,540 contracts deployed from January 2018 through December 2024 on BNB Chain (2,308,898), Ethereum (1,114,860), Polygon (288,610), and Avalanche (96,172). All classifier code, results, figures, and validation material are in [`compliance_analysis/`](compliance_analysis/README.md).
 
-* Ethereum
-* BNB Chain
-* Polygon
-* Avalanche
+The classifier reads each contract's function dispatcher: a function counts as exposed only when the dispatcher compares its selector with the call's selector. A contract implements a standard when more than 70% of the standard's mandatory functions are exposed. It is compliant when all of them are exposed and flagged otherwise. Of the 3,808,540 contracts, 2,369,723 implement at least one standard and 12,673 (0.53% of implementing contracts) are flagged. A random sample of 100 flagged contracts gave 100 true positives, a precision of 100% (Wilson 95% CI: 96.3–100%).
 
-A contract is flagged when it is identified as implementing an ERC standard but lacks at least one mandatory element detectable by the analysis, such as a required function selector, event signature, or interface dependency.
+> **Correction to the submitted version.** The originally submitted manuscript reported 240,448 flagged contracts out of 1,682,782. Its classifier searched the bytecode as text for each selector. It therefore missed selectors whose leading zero byte the compiler drops, and it counted selectors used only for outgoing calls. The dataset also wrongly excluded 2,112,762 contracts tagged as ERC-223 duplicates. The old classifier and its outputs have been removed from this repository.
 
 A flagged deviation is not automatically classified as an exploitable vulnerability. Exploitability depends on the affected requirement, execution context, and attacker-controlled preconditions.
 

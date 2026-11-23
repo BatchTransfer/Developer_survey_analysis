@@ -1,0 +1,7 @@
+{
+ "where": "sourcify",
+ "name": "AGDeportes",
+ "compiler": "0.5.11+commit.c082d0b4",
+ "impl": "",
+ "impl_where": ""
+}

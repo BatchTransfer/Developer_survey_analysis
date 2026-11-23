@@ -1,0 +1,15 @@
+{
+ "tagged_by_chain": {
+  "bnb": 1541596,
+  "avalanche": 35743,
+  "ethereum": 535423
+ },
+ "tagged_total": 2112762,
+ "ethereum_matched": 535423,
+ "ethereum_by_year": {
+  "2020": 1,
+  "2021": 3,
+  "2022": 2,
+  "unknown": 535417
+ }
+}

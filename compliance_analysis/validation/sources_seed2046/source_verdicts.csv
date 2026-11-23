@@ -1,0 +1,54 @@
+i,chain,address,contract,flagged,missing,bytecode_label,source_verdict,why
+1,ethereum,0x8f3b73567cb501b38ac1859c9de7c766cafef35a,Commemorative_token,ERC20,"allowance(address,address)",TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+3,ethereum,0xca5174401db1b479a0e562acb45a013729e79900,NoHandle,ERC4906|ERC721,supportsInterface(bytes4),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+5,ethereum,0x29c0eaedd6f8330413070368f6437f6f2809d5e9,CBulls,ERC4906|ERC721,supportsInterface(bytes4),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+9,bnb,0x473d2321dbfa3e2a5717830b685ce7eca363bdd2,TopDawgCoin,ERC20,"allowance(address,address)",TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+10,ethereum,0x64846bcb9545a3205e0dd8c0abe574ce0a8549cc,APES404,ERC4906|ERC721,supportsInterface(bytes4),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+11,bnb,0x720466f5a1b585cc66aecbc631eb57d0671c6eb8,BABYFTC,ERC20,"approve(address,uint256)",TP,TP (confirmed by source),"renamed: Approve(address,uint256) instead of approve"
+13,ethereum,0xc1dbf9cae66f2d6c7113a2d6aaab5d8ca26aad0f,Forward,ERC20,totalSupply(),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+17,avalanche,0x3e5e33b714193f88fcbdbc3dcbf31f453d26e3a6,AaveV3StrategyV1,ERC2612,DOMAIN_SEPARATOR(),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+20,avalanche,0xd475ddb954d9f187cc3647ef47dc15b899b85c00,HakuStrategyForLP,ERC2612,DOMAIN_SEPARATOR(),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+21,ethereum,0x1f563cdd688ad47b75e474fde74e87c643d129b7,AssetWrapper,ERC2612,"transfer(address,uint256); allowance(address,address)",TP,TP (confirmed by source),only in interface IERC20 (used for outgoing calls)
+23,ethereum,0x820c4597fc3e4193282576750ea4fcfe34ddf0a7,ERC820Registry,ERC1820,supportsInterface(bytes4),TP,TP (confirmed by source),"ERC-1820 registry, no supportsInterface (literal rule)"
+24,bnb,0xf352d9885fa2f3a26248fa890a1904b162b18ab5,OlympToken,ERC4524,"supportsInterface(bytes4); safeTransferFrom(address,address,uint256,bytes); safeTransfer(address,uint256,bytes)",TP,TP (confirmed by source),different signatures: safeTransfer/safeTransferFrom without bytes; no supportsInterface
+26,ethereum,0x76beeb04fbb6326d3c928484de13481284b2100e,SmartSignature,ERC20,"allowance(address,address)",TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+27,avalanche,0x1a43031783b7e042fa971092843fb4d75620df63,BoostedJoeStrategyForLP,ERC2612,DOMAIN_SEPARATOR(),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+29,bnb,0x1707a404f324443335d46f3492e91fbfd56b2cb3,sEReC20721_emerald_test,ERC3754|ERC4906|ERC721,"supportsInterface(bytes4); safeTransferFrom(address,address,uint256)",TP,TP (confirmed by source),"different signature: safeTransferFrom(address,address,uint16); no supportsInterface"
+31,avalanche,0x4f3274c3889e6cd54c9c739757ab8ea4b246d76b,AssetVault,ERC4626,"deposit(uint256,address); mint(uint256,address); withdraw(uint256,address,address); redeem(uint256,address,address)",TP,TP (confirmed by source),different signatures: deposit/redeem with extra minOut parameter; no mint/withdraw
+32,bnb,0x32dc065cc6bf468b5c8922ac034aeb5ac779dd79,DADA404,ERC4906|ERC721,supportsInterface(bytes4),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+33,bnb,0x856dd2deb1193dc4faffb036aad907fe1c5831fe,CatNIPNFT,ERC20,"allowance(address,address)",TP,TP (confirmed by source),only in interface IERC20
+34,ethereum,0x874e22352098748504c8a8644b1492436cb73e52,GovernTokenFactory,ERC2612,DOMAIN_SEPARATOR(),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+35,ethereum,0xa71c716adfed34bd697c986a8c485ce79c8b6837,YearnOptionsV1Manager,ERC2612,DOMAIN_SEPARATOR(),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+37,ethereum,0x4d9c66261e8cbf4d7ba3a0f950f27dd6f6594350,Plasma,ERC20,"allowance(address,address)",TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+38,bnb,0x9b3b4a56911692de2716d3c8712ce91209a5b536,GravisCollectible,ERC20,"allowance(address,address)",TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+44,ethereum,0x6761ac37dc20bd64a63800644edf51d45b9fbdb1,GameSpiritCoin,ERC20,"transferFrom(address,address,uint256)",TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+45,ethereum,0x2efac63b94bf0b9cc7a8a55a90b2f39156dda60c,BHAT,ERC4906|ERC721,supportsInterface(bytes4),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+46,ethereum,0x5dc76346f847057c8651ab4d4d01b5cd6da1b025,AGDeportes,ERC20,"transferFrom(address,address,uint256)",TP,TP (confirmed by source),transferFrom declared internal
+47,ethereum,0x7e292d9e6309f3024f2308b2b536331463b4dd1c,NibblVault,ERC2612,DOMAIN_SEPARATOR(),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+48,bnb,0x3498cfa7d24f7a7d9702cfc33e5fe14226ffcc99,RedFalcon,ERC20,"transferFrom(address,address,uint256)",TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+49,ethereum,0xde765fffd13aaebbaeb7b349a5378ea6a9b83e23,Code425,ERC4906|ERC721,supportsInterface(bytes4),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+51,ethereum,0xb91353903a1666bf06b5e54924a6b57c7b15a14a,Elonereum,ERC2612,DOMAIN_SEPARATOR(),TP,TP (confirmed by source),DOMAIN_SEPARATOR only in interface IUniswapV2Pair
+52,ethereum,0x51741a4737db1a6676b59aa7c8af1501baae6bbd,Bloot,ERC4906|ERC721,supportsInterface(bytes4),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+53,ethereum,0xc4a1c167d1563153f7466dc55a31706f4311236c,GiftNft,ERC20,"allowance(address,address)",TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+56,ethereum,0xc99f359f73626e475ee86caab459a4b34ae93fea,DungeonTokenAuction,ERC20,"allowance(address,address)",TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+57,ethereum,0xcb72ed407cdb97a7161a2b567b5f50b55585ee6b,WOCK,ERC4494,"permit(address,uint256,uint256,bytes)",TP,TP (confirmed by source),"different signature: permit(address,uint256,uint256,uint8,bytes32,bytes32) (v,r,s instead of bytes)"
+58,ethereum,0x5d866a1c8ac2decfe571f1159b72fd86ed1eb1f1,Capo404,ERC4906|ERC721,supportsInterface(bytes4),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+63,ethereum,0xb43a8bc3f632b0f7eeabd1bd5a9d1800c33ef189,BisonToken,ERC20,"allowance(address,address)",TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+64,ethereum,0x12df06aef0c0d5ac1809b73ceb15da4ea651bc52,AToken,ERC2612,nonces(address),TP,TP (confirmed by source),nonce getter has another name (Aave AToken)
+71,ethereum,0x8df4197669cf7af9fd29d768c932251a0c2e3e94,NINJA404,ERC4906|ERC721,supportsInterface(bytes4),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+72,ethereum,0xbd233d4ffdaa9b7d1d3e6b18cccb8d091142893a,AStETH,ERC2612,nonces(address),TP,TP (confirmed by source),nonce getter has another name (Aave AToken)
+77,ethereum,0x59fef6b5cba9d8351afcc30d687d845a1361f141,cryptogifts,ERC20,"allowance(address,address)",TP,TP (confirmed by source),"ERC-721 contract (cryptogifts is ERC721Full, ERC721Mintable, Ownable), no allowance anywhere"
+78,ethereum,0xba5a230e2d29e5629737484364c694381d7875e4,CryptoAds,ERC20,"allowance(address,address)",TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+79,ethereum,0x12403dc904edc805fd0cbeedd1049ba0c1b53a04,MyToken,ERC20,"approve(address,uint256)",TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+81,ethereum,0x647ba6e3c85733e2d8e8e571d06f43e5b5f052a3,ECAP,ERC20,"transferFrom(address,address,uint256)",TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+84,ethereum,0xc191ee8e39d8e7d73d076efbc80c307a710b46a3,VTuberNft,ERC2612,"transfer(address,uint256); allowance(address,address)",TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+85,ethereum,0xafee04257f9ef008bc4a66e3fcf247680f3c787e,BlockchainCutiesToken,ERC20,"allowance(address,address)",TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+86,ethereum,0x0b63cb1b6a55f6e225e60647c98aa09371237dc3,KSScidTOKEN,ERC20,totalSupply(),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+90,ethereum,0x2910f733d25fa63c8adc51d3742c6515427c1242,APE,ERC4906|ERC721,supportsInterface(bytes4),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+91,ethereum,0xb424ca85937000cdb77d923b16ae45d0d73f7557,CxipERC721,ERC3754|ERC4906|ERC721,balanceOf(address),TP,TP (confirmed by source),"balanceOf is commented out (""Disabled due to tokenEnumeration not enabled"")"
+92,ethereum,0x6d9c41d12cac7bc748145cdc74541b7517a889b3,PotatoPets,ERC4906|ERC721,supportsInterface(bytes4),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+95,ethereum,0x0ec7e07575c4ad054e260f131779238710ff55ed,C4SH404,ERC4906|ERC721,supportsInterface(bytes4),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+96,bnb,0x5a0f77da5135eea3584aa036c26c471946610be6,RespectPutin,ERC20,"transferFrom(address,address,uint256)",TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+97,ethereum,0x299307a192a2b5f6aae5ca02d685925733b9a637,GameSpiritCoin,ERC20,"transferFrom(address,address,uint256)",TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+99,avalanche,0x75e80319b1d9285eeeb7ebe82121cf8f8fde5a28,Supreme,ERC2612,DOMAIN_SEPARATOR(),TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents
+100,ethereum,0xd51153899a050485b12ea2f9e4accf58e6107ea5,LexTokenLite,ERC20,"allowance(address,address)",TP,TP (confirmed by source),reported-missing function not defined in the contract or its parents

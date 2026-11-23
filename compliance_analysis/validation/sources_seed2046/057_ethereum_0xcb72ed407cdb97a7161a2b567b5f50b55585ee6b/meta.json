@@ -1,0 +1,7 @@
+{
+ "where": "sourcify",
+ "name": "WOCK",
+ "compiler": "0.7.6+commit.7338295f",
+ "impl": "",
+ "impl_where": ""
+}

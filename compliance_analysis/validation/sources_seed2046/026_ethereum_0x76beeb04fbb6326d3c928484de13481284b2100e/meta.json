@@ -1,0 +1,7 @@
+{
+ "where": "sourcify",
+ "name": "SmartSignature",
+ "compiler": "0.4.21+commit.dfe3193c",
+ "impl": "",
+ "impl_where": ""
+}

@@ -1,0 +1,7 @@
+{
+ "where": "sourcify",
+ "name": "BHAT",
+ "compiler": "0.8.20+commit.a1b79de6",
+ "impl": "",
+ "impl_where": ""
+}

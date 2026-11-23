@@ -1,0 +1,7 @@
+{
+ "where": "sourcify",
+ "name": "Forward",
+ "compiler": "0.8.7+commit.e28d00a7",
+ "impl": "",
+ "impl_where": ""
+}

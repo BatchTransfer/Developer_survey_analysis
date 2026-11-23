@@ -1,0 +1,7 @@
+{
+ "where": "sourcify",
+ "name": "GiftNft",
+ "compiler": "0.8.2+commit.661d1103",
+ "impl": "",
+ "impl_where": ""
+}

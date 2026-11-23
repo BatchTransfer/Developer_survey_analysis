@@ -1,0 +1,7 @@
+{
+ "where": "sourcify",
+ "name": "CxipERC721",
+ "compiler": "0.8.4+commit.c7e474f2",
+ "impl": "",
+ "impl_where": ""
+}

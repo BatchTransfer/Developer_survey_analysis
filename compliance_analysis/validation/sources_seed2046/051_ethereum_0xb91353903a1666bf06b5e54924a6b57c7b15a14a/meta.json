@@ -1,0 +1,7 @@
+{
+ "where": "sourcify",
+ "name": "Elonereum",
+ "compiler": "0.6.12+commit.27d51765",
+ "impl": "",
+ "impl_where": ""
+}

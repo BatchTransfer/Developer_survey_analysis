@@ -1,0 +1,7 @@
+{
+ "where": "sourcify",
+ "name": "GravisCollectible",
+ "compiler": "0.6.2+commit.bacdbe57",
+ "impl": "",
+ "impl_where": ""
+}

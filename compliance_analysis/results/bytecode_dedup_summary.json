@@ -1,0 +1,416 @@
+{
+ "exact": {
+  "bnb": {
+   "total": 2308898,
+   "unique": 2308898,
+   "dup_groups": 0,
+   "in_dup_groups": 0,
+   "redundant": 0,
+   "largest": 1
+  },
+  "ethereum": {
+   "total": 1114860,
+   "unique": 1114860,
+   "dup_groups": 0,
+   "in_dup_groups": 0,
+   "redundant": 0,
+   "largest": 1
+  },
+  "polygon": {
+   "total": 288610,
+   "unique": 288610,
+   "dup_groups": 0,
+   "in_dup_groups": 0,
+   "redundant": 0,
+   "largest": 1
+  },
+  "avalanche": {
+   "total": 96172,
+   "unique": 96172,
+   "dup_groups": 0,
+   "in_dup_groups": 0,
+   "redundant": 0,
+   "largest": 1
+  },
+  "all": {
+   "total": 3808540,
+   "unique": 3762910,
+   "dup_groups": 35734,
+   "in_dup_groups": 81364,
+   "redundant": 45630,
+   "largest": 4,
+   "cross_chain_groups": 35734,
+   "cross_chain_contracts": 81364,
+   "size_hist": {
+    "2": 27767,
+    "3-10": 7967,
+    "11-100": 0,
+    "101-1000": 0,
+    "1001-10000": 0,
+    ">10000": 0
+   },
+   "chain_combos": [
+    [
+     "bnb+ethereum",
+     14154
+    ],
+    [
+     "bnb+polygon",
+     4270
+    ],
+    [
+     "ethereum+polygon",
+     3900
+    ],
+    [
+     "avalanche+bnb",
+     2992
+    ],
+    [
+     "bnb+ethereum+polygon",
+     2242
+    ],
+    [
+     "avalanche+bnb+ethereum",
+     2134
+    ],
+    [
+     "avalanche+bnb+ethereum+polygon",
+     1929
+    ],
+    [
+     "avalanche+polygon",
+     1230
+    ],
+    [
+     "avalanche+ethereum",
+     1221
+    ],
+    [
+     "avalanche+bnb+polygon",
+     1166
+    ],
+    [
+     "avalanche+ethereum+polygon",
+     496
+    ]
+   ],
+   "top": [
+    [
+     "5f74cfd24c3bbe56fbfd",
+     4,
+     [
+      "avalanche",
+      "bnb",
+      "ethereum",
+      "polygon"
+     ],
+     4780
+    ],
+    [
+     "9b2cc82b1d8d7f22d796",
+     4,
+     [
+      "avalanche",
+      "bnb",
+      "ethereum",
+      "polygon"
+     ],
+     251
+    ],
+    [
+     "3de8392f329b9046b7b1",
+     4,
+     [
+      "avalanche",
+      "bnb",
+      "ethereum",
+      "polygon"
+     ],
+     3281
+    ],
+    [
+     "4d35d4aff1c452247d53",
+     4,
+     [
+      "avalanche",
+      "bnb",
+      "ethereum",
+      "polygon"
+     ],
+     63
+    ],
+    [
+     "abc7dc6e7d448e57fd26",
+     4,
+     [
+      "avalanche",
+      "bnb",
+      "ethereum",
+      "polygon"
+     ],
+     323
+    ],
+    [
+     "bde8f40c1a443a4c22d2",
+     4,
+     [
+      "avalanche",
+      "bnb",
+      "ethereum",
+      "polygon"
+     ],
+     2546
+    ],
+    [
+     "b6548091dcb481a23c10",
+     4,
+     [
+      "avalanche",
+      "bnb",
+      "ethereum",
+      "polygon"
+     ],
+     2244
+    ],
+    [
+     "1e235c2892febe58e709",
+     4,
+     [
+      "avalanche",
+      "bnb",
+      "ethereum",
+      "polygon"
+     ],
+     957
+    ],
+    [
+     "5b0d097c68191b88e63a",
+     4,
+     [
+      "avalanche",
+      "bnb",
+      "ethereum",
+      "polygon"
+     ],
+     23001
+    ],
+    [
+     "4073c7138a2c00479d0d",
+     4,
+     [
+      "avalanche",
+      "bnb",
+      "ethereum",
+      "polygon"
+     ],
+     5962
+    ]
+   ]
+  }
+ },
+ "near": {
+  "bnb": {
+   "total": 2308898,
+   "unique": 1423177,
+   "dup_groups": 117529,
+   "in_dup_groups": 1003250,
+   "redundant": 885721,
+   "largest": 44320
+  },
+  "ethereum": {
+   "total": 1114860,
+   "unique": 793049,
+   "dup_groups": 55137,
+   "in_dup_groups": 376948,
+   "redundant": 321811,
+   "largest": 15545
+  },
+  "polygon": {
+   "total": 288610,
+   "unique": 225069,
+   "dup_groups": 12592,
+   "in_dup_groups": 76133,
+   "redundant": 63541,
+   "largest": 8565
+  },
+  "avalanche": {
+   "total": 96172,
+   "unique": 75419,
+   "dup_groups": 5046,
+   "in_dup_groups": 25799,
+   "redundant": 20753,
+   "largest": 2120
+  },
+  "all": {
+   "total": 3808540,
+   "unique": 2454773,
+   "dup_groups": 214383,
+   "in_dup_groups": 1568150,
+   "redundant": 1353767,
+   "largest": 45194,
+   "cross_chain_groups": 48052,
+   "cross_chain_contracts": 812496,
+   "size_hist": {
+    "2": 135100,
+    "3-10": 68135,
+    "11-100": 10002,
+    "101-1000": 1026,
+    "1001-10000": 110,
+    ">10000": 10
+   },
+   "chain_combos": [
+    [
+     "bnb+ethereum",
+     20895
+    ],
+    [
+     "bnb+polygon",
+     5332
+    ],
+    [
+     "ethereum+polygon",
+     4822
+    ],
+    [
+     "bnb+ethereum+polygon",
+     3655
+    ],
+    [
+     "avalanche+bnb",
+     3397
+    ],
+    [
+     "avalanche+bnb+ethereum+polygon",
+     2914
+    ],
+    [
+     "avalanche+bnb+ethereum",
+     2547
+    ],
+    [
+     "avalanche+ethereum",
+     1350
+    ],
+    [
+     "avalanche+bnb+polygon",
+     1307
+    ],
+    [
+     "avalanche+polygon",
+     1281
+    ],
+    [
+     "avalanche+ethereum+polygon",
+     552
+    ]
+   ],
+   "top": [
+    [
+     "1fab9b56012e98b2df5a",
+     45194,
+     [
+      "avalanche",
+      "bnb",
+      "ethereum",
+      "polygon"
+     ],
+     3373
+    ],
+    [
+     "8ffedfdc83cb39323811",
+     36966,
+     [
+      "avalanche",
+      "bnb",
+      "ethereum",
+      "polygon"
+     ],
+     3670
+    ],
+    [
+     "c5cb3d49f4bf88462f80",
+     31476,
+     [
+      "avalanche",
+      "bnb",
+      "ethereum",
+      "polygon"
+     ],
+     6405
+    ],
+    [
+     "e75d9a7fc3438803a8d9",
+     25562,
+     [
+      "avalanche",
+      "bnb",
+      "ethereum",
+      "polygon"
+     ],
+     6234
+    ],
+    [
+     "8a3a96e33bac967e809c",
+     18589,
+     [
+      "bnb",
+      "ethereum"
+     ],
+     4346
+    ],
+    [
+     "b41594cf81a58011a64f",
+     15548,
+     [
+      "ethereum",
+      "polygon"
+     ],
+     808
+    ],
+    [
+     "bf9928d3d05ba4836151",
+     14166,
+     [
+      "ethereum",
+      "polygon"
+     ],
+     807
+    ],
+    [
+     "b5ee2fc76f339330289d",
+     13683,
+     [
+      "avalanche",
+      "bnb",
+      "ethereum",
+      "polygon"
+     ],
+     298
+    ],
+    [
+     "d2ded5e4c5c05a8faedb",
+     12754,
+     [
+      "avalanche",
+      "bnb",
+      "ethereum",
+      "polygon"
+     ],
+     6035
+    ],
+    [
+     "9d10374c49dbb751557a",
+     12166,
+     [
+      "avalanche",
+      "bnb",
+      "ethereum",
+      "polygon"
+     ],
+     4350
+    ]
+   ]
+  }
+ }
+}

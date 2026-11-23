@@ -1,0 +1,7 @@
+{
+ "where": "routescan",
+ "name": "BoostedJoeStrategyForLP",
+ "compiler": "v0.8.13+commit.abaa5c0e",
+ "impl": "",
+ "impl_where": ""
+}

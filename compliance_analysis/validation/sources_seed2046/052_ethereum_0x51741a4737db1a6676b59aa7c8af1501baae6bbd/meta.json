@@ -1,0 +1,7 @@
+{
+ "where": "sourcify",
+ "name": "Bloot",
+ "compiler": "0.8.23+commit.f704f362",
+ "impl": "",
+ "impl_where": ""
+}

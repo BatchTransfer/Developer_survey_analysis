@@ -1,0 +1,7 @@
+{
+ "where": "sourcify",
+ "name": "Plasma",
+ "compiler": "0.4.25+commit.59dbf8f1",
+ "impl": "",
+ "impl_where": ""
+}

@@ -1,0 +1,7 @@
+{
+ "where": "sourcify",
+ "name": "BisonToken",
+ "compiler": "0.8.1+commit.df193b15",
+ "impl": "",
+ "impl_where": ""
+}

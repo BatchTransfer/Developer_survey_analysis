@@ -1,0 +1,14 @@
+                                            v5          v6      change
+contracts                            3,808,540   3,808,540          +0
+implementing any standard            2,369,723   2,784,981    +415,258
+implementing excl. ERC-173/4906      2,369,723   2,369,723          +0
+only ERC-173/4906                            0     415,258    +415,258
+flagged                                 12,673      12,673          +0
+ERC-173 complete                       199,730   1,774,852  +1,575,122
+ERC-173 flagged                              0           0          +0
+bnb implementing any standard: 1,574,675 -> 1,816,245 | implementing excl. ERC-173/4906: 1,574,675 -> 1,574,675 | flagged: 5,094 -> 5,094
+ethereum implementing any standard: 621,588 -> 737,778 | implementing excl. ERC-173/4906: 621,588 -> 621,588 | flagged: 6,114 -> 6,114
+polygon implementing any standard: 130,717 -> 168,522 | implementing excl. ERC-173/4906: 130,717 -> 130,717 | flagged: 874 -> 874
+avalanche implementing any standard: 42,743 -> 62,436 | implementing excl. ERC-173/4906: 42,743 -> 42,743 | flagged: 591 -> 591
+flagged contracts identical: True | only v5: 0 | only v6: 0
+contracts whose non-ERC-173 matches changed: 0

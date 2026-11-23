@@ -1,0 +1,302 @@
+#1 ethereum 0x8f3b73567cb501b38ac1859c9de7c766cafef35a size=10155B delegatecall=True flags=ERC20 compliant=ERC165|ERC173|ERC3754|ERC4906|ERC721
+   ERC20 5/6 missing: allowance(address,address)
+   functions: 00000000, 00000060, 31a64bff, addMinter, approve, balanceOf, claim, draw, getApproved, isApprovedForAll, isMinter, isOwner, mint, name, owner, ownerOf, renounceMinter, renounceOwnership, reset, safeTransferFrom, safeTransferFrom, setApprovalForAll, supportsInterface, symbol, tokenByIndex, tokenOfOwnerByIndex, tokenURI, totalSupply, transfer, transferFrom, transferOwnership
+#2 ethereum 0x291a368327e2ad118b3d26b201a36278cafcdd94 size=6159B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: allowance(address,address)
+   functions: 00000000, 00000005, 0d02c82f, 1817cca4, 2c9adfaf, 3f4e8a14, 9c30b71e, 9e96f821, 9fb4d11b, account_info_rotate_tine, approve, b348355f, balanceOf, buy, ea4a1104, owner, ownerOf, setOwner, totalSupply, transfer, transferFrom
+#3 ethereum 0xca5174401db1b479a0e562acb45a013729e79900 size=7255B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 18d217c3, 8187f516, account_info_rotate_tine, allowance, approve, balanceOf, d547cfb7, decimals, f28ca1dd, getApproved, isApprovedForAll, minted, name, owner, ownerOf, pair, razor_balance, revokeOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setNameSymbol, setTokenURI, setWhitelist, symbol, tokenURI, totalSupply, transfer, transferFrom, transferOwnership, whitelist
+#4 bnb 0xf250033b918671699b65d4232d94b23ceb7cb390 size=10426B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 56bb8cb6, 5ade2021, 7a0d2302, 85acbc0e, 9fd595f0, account_info_rotate_tine, ad7e585c, allowance, approve, balanceOf, ce688f67, d547cfb7, d7c64e7f, decimals, getApproved, isApprovedForAll, mint, minted, name, owner, ownerOf, razor_balance, renounceOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setTokenURI, symbol, tokenURI, totalSupply, transfer, transferFrom, withdrawERC20
+#5 ethereum 0x29c0eaedd6f8330413070368f6437f6f2809d5e9 size=9223B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 00000000, 07615815, 18d217c3, 74bbc538, 827858a4, 8ac9feff, account_info_rotate_tine, allowance, approve, balanceOf, d547cfb7, decimals, f28ca1dd, getApproved, isApprovedForAll, manualPrice, minted, name, owner, ownerOf, poolAddress, razor_balance, revokeOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setManualPrice, setNameSymbol, setTokenURI, setWhitelist, symbol, tokenURI, totalSupply, transfer, transferFrom, transferOwnership, weth, whitelist
+#6 bnb 0xde207c08f1f1b81a4556c113c51e52466357559d size=12461B delegatecall=True flags=ERC4524 compliant=ERC165|ERC173|ERC3754|ERC4906|ERC721
+   ERC4524 9/11 missing: transfer(address,uint256), allowance(address,address)
+   functions: 00000000, 000000e0, 000000e1, 0a85bd01, 52d1902d, 5a9c9eb8, 5b5e139f, 780e9d63, 80ac58cd, approve, balanceOf, burn, getApproved, initialize, isApprovedForAll, mintWithTokenURI, name, owner, ownerOf, pause, paused, renounceOwnership, safeTransfer, safeTransfer, safeTransferFrom, safeTransferFrom, setApprovalForAll, supportsInterface, symbol, tokenByIndex, tokenOfOwnerByIndex, tokenURI, totalSupply, transferFrom, transferOwnership, unpause, upgradeTo, upgradeToAndCall
+#7 bnb 0x86bf5425acee352844afb7b8c2c7ac8c34a5aeed size=3481B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: balanceOf(address)
+   functions: BalanceOf, allowance, approve, balances, decimals, name, symbol, totalSupply, transfer, transferFrom
+#8 polygon 0xf5652876b2a73b0abc4bd86d7804a903727fb338 size=16429B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 18d217c3, account_info_rotate_tine, allowance, approve, balanceOf, d547cfb7, decimals, f28ca1dd, getApproved, isApprovedForAll, minted, name, owner, ownerOf, razor_balance, revokeOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setNameSymbol, setTokenURI, setWhitelist, symbol, tokenURI, totalSupply, transfer, transferFrom, transferOwnership, whitelist
+#9 bnb 0x473d2321dbfa3e2a5717830b685ce7eca363bdd2 size=3178B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: allowance(address,address)
+   functions: 3f4218e0, 5e5c06e2, 8ebfc796, approve, balanceOf, burnAddress, c21ebd07, decimals, developerAddress, marketingAddress, name, owner, symbol, totalSupply, transfer, transferFrom, transferOwnership
+#10 ethereum 0x64846bcb9545a3205e0dd8c0abe574ce0a8549cc size=14955B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 07c56001, 2c88797e, a9e2880e, account_info_rotate_tine, allowance, approve, balanceOf, ca4c0e09, d547cfb7, decimals, getApproved, isApprovedForAll, name, owner, ownerOf, razor_balance, revokeOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setNameSymbol, setTokenURI, setWhitelist, symbol, tokenURI, totalSupply, transfer, transferFrom, transferOwnership, whitelist
+#11 bnb 0x720466f5a1b585cc66aecbc631eb57d0671c6eb8 size=6639B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: approve(address,uint256)
+   functions: 00000000, 36b2e027, 4ba5d8b5, 4bf28fd0, 65b61b77, Approve, allowance, balanceOf, c5b37c22, decimals, name, owner, swapper, symbol, totalSupply, transfer, transferFrom, transferOwnership
+#12 bnb 0xc469394f8b261986c950d8ef4e97e0620136b858 size=8192B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: transfer(address,uint256)
+   functions: 7111a994, _decimals, _name, _symbol, allowance, approve, balanceOf, burn, decimals, decreaseAllowance, getOwner, increaseAllowance, mint, name, owner, renounceOwnership, symbol, totalSupply, transferFrom, transferOwnership
+#13 ethereum 0xc1dbf9cae66f2d6c7113a2d6aaab5d8ca26aad0f size=1993B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: totalSupply()
+   functions: allowance, approve, balanceOf, d5273e32, decimals, name, symbol, transfer, transferFrom
+#14 ethereum 0x53c6e99cd73dc089ca449fd221fd733558b19d97 size=2129B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: allowance(address,address)
+   functions: approve, balanceOf, decimals, name, symbol, totalSupply, transfer, transferFrom
+#15 bnb 0xeee09d58420e2ddb0879134601b6ba07e54af32e size=3481B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: transferFrom(address,address,uint256)
+   functions: allowance, approve, balanceOf, balances, decimals, name, symbol, totalSupply, transfer, transferfrom
+#16 polygon 0x2c97f62330be097870fe41d5200615649a32d384 size=6718B delegatecall=True flags=ERC4626 compliant=ERC20|ERC2612
+   ERC4626 20/22 missing: withdraw(uint256,address,address), redeem(uint256,address,address)
+   functions: 00000000, 07a2d13a, 0a28a477, 18e8cb96, 337496e0, 3644e515, 402d267d, 4cdad506, 7ecebe00, 9f40a7b3, a318c1a4, account_info_rotate_tine, allowance, approve, asset, b3d7f6b9, balanceOf, c63d75b6, c6e6f592, ce96cb77, d505accf, d905777e, decimals, deposit, e9eab4bb, ef8b30f7, mint, multicall, name, symbol, tickets, totalAssets, totalSupply, transfer, transferFrom
+#17 avalanche 0x3e5e33b714193f88fcbdbc3dcbf31f453d26e3a6 size=19457B delegatecall=True flags=ERC2612 compliant=ERC20
+   ERC2612 8/9 missing: DOMAIN_SEPARATOR()
+   functions: 00000000, 07677111, 0f23475d, 1f15d71a, 20606b70, 22a05141, 2f4f21e2, 30adf81f, 3bdc6e72, 40b47e1a, 483c2ef0, 4a970be7, 4bebd1e7, 4e77ace5, 4ebb7916, 5ea682ea, 62ac20a5, 789139bc, 79085425, 7ecebe00, 81837230, 8aff733d, 8b73e606, 9291d563, 99729ec1, 9e4e7318, a4d5e67c, a5534e71, a8ae2b7c, ac0d31ff, account_info_rotate_tine, allowance, approve, b52a321f, b9e57b80, balanceOf, bd079f55, c89039c5, checkReward, d505accf, db8dd95c, dd8ce4d6, decimals, deposit, devAddr, e21ac825, e592c5fa, e75ab045, eab89a5a, ed24911d, f02ecb71, name, owner, recoverERC20, reinvest, renounceOwnership, revokeAllowance, rewardToken, setAllowances, symbol, totalDeposits, totalSupply, transfer, transferFrom, transferOwnership, updateAdminFee, withdraw
+#18 bnb 0xdb4642a75ce4d45f4b4fdfce07f336e1016ee3a0 size=11422B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 00002b79, 0910a510, 11cd0e25, 15e85929, 1694505e, 206b8b2a, 28703692, 40db8258, 49bd5a5e, 54ec3f13, 5b2806d8, 66a16cad, 6c7b4ef8, 9b4dc8cc, MAX_SUPPLY, a733bcbd, account_info_rotate_tine, allowance, approve, balanceOf, ce3ab211, decimals, e0934e4b, getApproved, isApprovedForAll, isContract, mint, minted, name, owner, ownerOf, pause, paused, razor_balance, revokeOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setBaseUri, setNameSymbol, setWhitelist, symbol, tokenURI, totalSupply, transfer, transferFrom, transferOwnership, unpause, whitelist, withdraw
+#19 bnb 0x7646f5c18b8f99d562b8bd61bd0cdbbb5ee1cd40 size=9117B delegatecall=True flags=ERC4906|ERC721 compliant=ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 3df6db72, 40adac5f, 505d1624, 568d4d9d, 6114730c, 860d248a, Manager, addManager, approve, balanceOf, bfc206ed, burn, delManager, f3fe3bc3, f46f6e3d, fb0718e3, feb3d3d6, getApproved, isApprovedForAll, mint, name, owner, ownerOf, safeTransferFrom, safeTransferFrom, setApprovalForAll, symbol, tokens, totalSupply, transferFrom, transferOwnership
+#20 avalanche 0xd475ddb954d9f187cc3647ef47dc15b899b85c00 size=17410B delegatecall=True flags=ERC2612 compliant=ERC20
+   ERC2612 8/9 missing: DOMAIN_SEPARATOR()
+   functions: 00000000, 07677111, 0f23475d, 20606b70, 2f4f21e2, 30adf81f, 3bdc6e72, 483c2ef0, 4a970be7, 4bebd1e7, 4e77ace5, 4ebb7916, 5e5eee1b, 5ea682ea, 5eaec0e4, 789139bc, 7ecebe00, 81837230, 8432e894, 8aff733d, 8b73e606, 909ac8f4, 9291d563, 99729ec1, 9e4e7318, a1a4ddeb, a8ae2b7c, ac0d31ff, account_info_rotate_tine, allowance, approve, b52a321f, b9e57b80, balanceOf, bd079f55, c89039c5, ca796304, checkReward, d505accf, dd8ce4d6, decimals, deposit, devAddr, e21ac825, eab89a5a, ed24911d, name, owner, recoverERC20, reinvest, renounceOwnership, revokeAllowance, rewardToken, setAllowances, symbol, totalDeposits, totalSupply, transfer, transferFrom, transferOwnership, updateAdminFee, withdraw
+#21 ethereum 0x1f563cdd688ad47b75e474fde74e87c643d129b7 size=17645B delegatecall=True flags=ERC2612 compliant=ERC165|ERC3754|ERC4906|ERC721
+   ERC2612 7/9 missing: transfer(address,uint256) [in code text], allowance(address,address)
+   functions: 00000000, 0000001b, 0000001c, 000000ff, 21425ee0, 3644e515, 45a4276b, 5358fbda, 631e1c6c, 6d5442c2, 7298c736, 7ecebe00, approve, balanceOf, burn, d505accf, dcca3960, f998fe9d, fc6bf133, getApproved, isApprovedForAll, name, onERC1155BatchReceived, onERC1155Received, onERC721Received, ownerOf, safeTransferFrom, safeTransferFrom, setApprovalForAll, supportsInterface, symbol, tokenByIndex, tokenOfOwnerByIndex, tokenURI, totalSupply, transferFrom, withdraw
+#22 ethereum 0x7b6db8776d5048bc121f2ae1237c3d54ca2a2b26 size=7880B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 18d217c3, 47b1ea0a, account_info_rotate_tine, allowance, approve, balanceOf, d547cfb7, decimals, f28ca1dd, getApproved, isApprovedForAll, minted, name, owner, ownerOf, razor_balance, revokeOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setNameSymbol, setTokenURI, setWhitelist, symbol, tokenURI, totalSupply, transfer, transferFrom, transferOwnership, whitelist
+#23 ethereum 0x820c4597fc3e4193282576750ea4fcfe34ddf0a7 size=2622B delegatecall=False flags=ERC1820 compliant=
+   ERC1820 5/6 missing: supportsInterface(bytes4) [in code text]
+   functions: account_info_rotate_tine, getInterfaceImplementer, getManager, implementsERC165Interface, implementsERC165InterfaceNoCache, interfaceHash, setInterfaceImplementer, setManager, updateERC165Cache
+#24 bnb 0xf352d9885fa2f3a26248fa890a1904b162b18ab5 size=13124B delegatecall=True flags=ERC4524 compliant=ERC20
+   ERC4524 8/11 missing: supportsInterface(bytes4), safeTransfer(address,uint256,bytes), safeTransferFrom(address,address,uint256,bytes)
+   functions: 1ad9339a, 20606b70, 269f534c, 376c2391, 3ff8bf2e, 4a74bb02, 50e15fdd, 5f759ecd, 641c2310, 6a141e2c, 6fcfff45, 782d6fe1, 7ecebe00, 9f9a4e7f, a392e674, a9e75723, aa43edde, account_info_rotate_tine, allowance, approve, b4b5ea57, b65d08b0, balanceOf, burnRate, c3cda520, c7f59a67, d8248358, decimals, decreaseAllowance, delegate, delegates, e7a324dc, f1127ed8, f607f2b4, getOwner, increaseAllowance, isOwner, mint, mint, name, operator, owner, renounceOwnership, safeTransfer, safeTransferFrom, symbol, totalSupply, transfer, transferFrom, transferOperator, transferOwnership
+#25 bnb 0xe7acd34178cec4008d25b7a95757838c36a00a87 size=7302B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: totalSupply()
+   functions: 1c964ff4, 2024c3b4, 449d74c6, 5724554f, allowance, approve, balanceOf, bd866f26, e090a935, febd3017, getMetrics, getOwner, node, transfer, transferFrom
+#26 ethereum 0x76beeb04fbb6326d3c928484de13481284b2100e size=8199B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: allowance(address,address)
+   functions: 00000000, allOf, approve, approvedFor, balanceFromToken, balanceOf, buy, calculateDevCut, calculateNextPrice, changePrice, creatorOf, free1Of, free2Of, issueToken, judgeFakeToken, judgeFakeTokenAndTransfer, name, nextPriceOf, ownerOf, parentOf, priceOf, setCreator, symbol, tokenExists, tokensOf, totalSupply, transfer, transferFrom, withdrawAll, withdrawAllFromRoot, withdrawAllFromToken, withdrawAmountFromToken
+#27 avalanche 0x1a43031783b7e042fa971092843fb4d75620df63 size=16741B delegatecall=True flags=ERC2612 compliant=ERC20
+   ERC2612 8/9 missing: DOMAIN_SEPARATOR()
+   functions: 00000000, 07677111, 0f23475d, 20606b70, 2f4f21e2, 30adf81f, 3bdc6e72, 483c2ef0, 4a970be7, 4bebd1e7, 4e77ace5, 4ebb7916, 5e5eee1b, 5ea682ea, 5eaec0e4, 789139bc, 7ecebe00, 81837230, 8432e894, 8aff733d, 8b73e606, 909ac8f4, 9291d563, 99729ec1, 9e4e7318, a1a4ddeb, a8ae2b7c, ac0d31ff, account_info_rotate_tine, allowance, approve, b52a321f, b9e57b80, balanceOf, bd079f55, c89039c5, checkReward, d505accf, dd8ce4d6, decimals, deposit, devAddr, e21ac825, eab89a5a, ed24911d, name, owner, proxy, recoverERC20, reinvest, renounceOwnership, revokeAllowance, rewardToken, stakingContract, symbol, totalDeposits, totalSupply, transfer, transferFrom, transferOwnership, updateAdminFee, withdraw
+#28 ethereum 0x14ec5a4a6ada4a469b5c2ccfd4f472cb9beb7474 size=2316B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: approve(address,uint256)
+   functions: 000005b6, allowance, approve, balanceOf, burnTokens, decimals, freezeTransfers, name, setOwner, symbol, totalSupply, transfer, transferFrom, unfreezeTransfers
+#29 bnb 0x1707a404f324443335d46f3492e91fbfd56b2cb3 size=8198B delegatecall=True flags=ERC3754|ERC4906|ERC721 compliant=ERC20
+   ERC3754 8/9 missing: safeTransferFrom(address,address,uint256)
+   ERC721 8/10 missing: supportsInterface(bytes4), safeTransferFrom(address,address,uint256)
+   functions: 07394401, 1a72b87d, 93f69074, account_info_rotate_tine, allowance, approve, b91ac788, balanceOf, baseURI, decimals, dev, efa9a1ad, getApproved, id, isApprovedForAll, name, ownerOf, safeTransferFrom, setApprovalForAll, setBaseURI, symbol, tokenURI, totalSupply, transfer, transferFrom, withdraw
+#30 bnb 0xaeb5972a6a6b6ecdeff2750a3f43a0b7366cead4 size=3373B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: transfer(address,uint256)
+   functions: Transfer, allowance, approve, balanceOf, balances, decimals, name, symbol, totalSupply, transferFrom
+#31 avalanche 0x4f3274c3889e6cd54c9c739757ab8ea4b246d76b size=14645B delegatecall=True flags=ERC4626 compliant=ERC20|ERC2612
+   ERC4626 18/22 missing: deposit(uint256,address), mint(uint256,address), withdraw(uint256,address,address), redeem(uint256,address,address)
+   functions: 00000000, 00000007, 0169a996, 02191980, 02befd24, 07a2d13a, 0a28a477, 0a5623fb, 30bcfb8d, 3644e515, 402d267d, 4cdad506, 56bb54a7, 63d8882a, 6d9a4fef, 772fa701, 7ecebe00, 8108d37a, 853c637d, 8995630e, 8b198025, a351e52f, account_info_rotate_tine, acfc67a5, allowance, approve, asset, b3d7f6b9, b5db7d41, balanceOf, c63d75b6, c6e6f592, cancelRequest, ce96cb77, d505accf, d905777e, decimals, deposit, e4c4be58, ea9dcc1d, ed95763b, ef8b30f7, f7b44de4, f8279127, mintTo, name, pps, razor_balance, symbol, totalAssets, totalSupply, transfer, transferFrom
+#32 bnb 0x32dc065cc6bf468b5c8922ac034aeb5ac779dd79 size=21325B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 18d217c3, 65c3175b, 74e18e96, 8ed8d032, account_info_rotate_tine, allowance, approve, balanceOf, d547cfb7, d57d56af, decimals, f28ca1dd, getApproved, isApprovedForAll, minted, name, owner, ownerOf, razor_balance, revokeOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setNameSymbol, setTokenURI, setWhitelist, setWhitelist, symbol, tokenURI, totalSupply, transfer, transferFrom, transferOwnership, whitelist
+#33 bnb 0x856dd2deb1193dc4faffb036aad907fe1c5831fe size=15426B delegatecall=True flags=ERC20 compliant=ERC165|ERC3754|ERC4906|ERC721
+   ERC20 5/6 missing: allowance(address,address)
+   functions: 00000000, 000000e0, 000000e1, 0a85bd01, 0ade83d6, 13086400, 1f683b06, 260d49ff, 26a112e9, 376a089e, 3c0debab, 412475cb, 482af85f, 4b4df055, 506d835e, 53e7bd46, 54ccc2e5, 55c7ba14, 575e8ecb, 5b5e139f, 5fac5574, 66c944bc, 6ba69ea6, 740943bf, 780e9d63, 80ac58cd, 824dbdfc, 8843e73d, 8e82a337, 9f094127, a53e7887, a75d83b8, approve, b615bb6d, b6ac20ff, b74667af, b86ef109, balanceOf, bdd1acc2, burn, c06c4efd, c2302e5e, c7e1bc1a, d10fd74e, d768dbcb, dc0bb750, e06f1cc0, f56bc580, febef3f8, getApproved, isApprovedForAll, name, onERC721Received, ownerOf, safeTransferFrom, safeTransferFrom, setApprovalForAll, supportsInterface, symbol, tokenByIndex, tokenOfOwnerByIndex, tokenURI, totalSupply, transfer, transferFrom
+#34 ethereum 0x874e22352098748504c8a8644b1492436cb73e52 size=21330B delegatecall=True flags=ERC2612 compliant=ERC20
+   ERC2612 8/9 missing: DOMAIN_SEPARATOR()
+   functions: 00000000, 1c47671b, 20a82020, 30adf81f, 3408e470, 495a9825, 58849734, 7e8c7f08, 7ecebe00, 901d13e2, 943e9ec0, 96fc8abd, a0cc6a68, a157a10d, account_info_rotate_tine, allowance, approve, balanceOf, bdf9a726, burn, cc1d4cab, changeMinter, d3feb830, d505accf, decimals, e3ee160e, e94a0102, ec8528f9, ed24911d, f6d2ee86, initialize, mint, mint, minter, name, symbol, token, tokenBase, totalSupply, transfer, transferFrom
+#35 ethereum 0xa71c716adfed34bd697c986a8c485ce79c8b6837 size=9414B delegatecall=True flags=ERC2612 compliant=ERC20
+   ERC2612 8/9 missing: DOMAIN_SEPARATOR()
+   functions: 00000000, 0324ef9c, 0d6b6841, 20606b70, 30adf81f, 38013f02, 5aa6e675, 5e32901a, 5ef9f022, 7ecebe00, 8ac684fe, 8f79306e, 92469968, 9883fd42, 99fbab88, PERIOD, WETH, ab033ea9, acceptGovernance, allowance, approve, ba657e43, balanceOf, c3926a29, close, d505accf, de5f6268, decimals, def68a9c, deposit, e0bab4c4, exercise, f39c38a0, f53e2894, fdda918e, name, nextIndex, reserve, symbol, totalSupply, transfer, transferFrom, withdraw, withdrawAll
+#36 bnb 0x4141909c9035b65b678bc803457b4b744c8358a8 size=21798B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: transferFrom(address,address,uint256)
+   functions: 00000000, 00000006, 00004e22, 31ffd91c, 42fa8091, 743597fa, 7b7aebe9, 96740de3, aa475b90, aab428ae, account_info_rotate_tine, allowance, approve, b0306952, b18e15bd, balanceOf, c5cc6b6a, ca2b4425, caller, check, contractOwner, decimals, e0af3616, f6aa50fe, fb5b52ee, name, razor_balance, setTimeLimit, symbol, totalSupply, transfer
+#37 ethereum 0x4d9c66261e8cbf4d7ba3a0f950f27dd6f6594350 size=2668B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: allowance(address,address)
+   functions: approve, balanceOf, canTransferFrom, changeName, changeOwner, changeSymbol, decimals, name, standard, symbol, totalSupply, transfer, transferFrom
+#38 bnb 0x9b3b4a56911692de2716d3c8712ce91209a5b536 size=17626B delegatecall=True flags=ERC20 compliant=ERC165|ERC173|ERC3754|ERC4906|ERC721
+   ERC20 5/6 missing: allowance(address,address)
+   functions: 00000000, 000000e1, 00000100, 00002155, 00c2a945, 0a85bd01, 248a9ca3, 2f2ff15d, 36568abe, 3ee9f8bb, 473360a1, 50a2388f, 9010d07c, 91d14854, 9bd993ff, a217fddf, addMember, addMembers, addMinter, approve, balanceOf, baseURI, bdb68369, burn, ca15c873, d5391393, d547741f, decimals, e327a6af, exists, getApproved, getTokenType, isApprovedForAll, isMember, last, mint, name, owner, ownerAt, ownerOf, ownersLength, removeMember, renounceOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setBaseURI, supportsInterface, symbol, tokenByIndex, tokenOfOwnerByIndex, tokenURI, totalSupply, transfer, transferFrom, transferFromContract, transferOwnership, whitelisted
+#39 bnb 0x081b2dd2c4b0442cc0ceb3353d07072c63fcfee4 size=8192B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: transfer(address,uint256)
+   functions: 7111a994, _decimals, _name, _symbol, allowance, approve, balanceOf, burn, decimals, decreaseAllowance, getOwner, increaseAllowance, mint, name, owner, renounceOwnership, symbol, totalSupply, transferFrom, transferOwnership
+#40 ethereum 0x85bd2e2bb6965fe92568ef30772051a09888c135 size=4646B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: totalSupply()
+   functions: 00000000, ETHERDELTA_ADDR, allowance, approve, balanceOf, e730d4d4, trade, transfer, transferFrom
+#41 polygon 0x67c501aac09c411daa5a3d0527c0ca4e56ec1b95 size=24083B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 00000000, 00002710, 04f63843, 06d490e0, 18d217c3, 2add45b7, 38bf3cfa, 39514480, 42340a56, 50492aec, 68c93b28, 791b98bc, 7b3aa235, 7c887c59, 7e08e9bf, 81456f48, 8525e26c, WETH, a7a78885, account_info_rotate_tine, allowance, approve, balanceOf, c1b78ab6, ca4c0e09, ceeb324c, cfed6c4f, claim, collect, d547cfb7, decimals, df5a66ce, f28ca1dd, fce89878, fee, getApproved, isApprovedForAll, mint, minted, name, onERC721Received, owner, ownerOf, razor_balance, refund, revokeOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setFeeAddr, setNameSymbol, setTokenURI, symbol, tokenURI, totalSupply, transfer, transferFrom, transferOwnership
+#42 bnb 0x28857f4279ae8b208b9c93c1d32104ee90409150 size=3373B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: transferFrom(address,address,uint256)
+   functions: allowance, approve, balanceOf, balances, decimals, name, symbol, totalSupply, transfer, transferfrom
+#43 bnb 0x126c9f56b5d293330228e71f093b03dc40cde8bb size=3394B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: transferFrom(address,address,uint256)
+   functions: allowance, approve, balanceOf, balances, decimals, name, symbol, totalSupply, transfer, transferfrom
+#44 ethereum 0x6761ac37dc20bd64a63800644edf51d45b9fbdb1 size=2204B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: transferFrom(address,address,uint256)
+   functions: allowance, approve, balanceOf, collectExcess, decimals, filehash, name, owner, standard, symbol, totalSupply, transfer, users
+#45 ethereum 0x2efac63b94bf0b9cc7a8a55a90b2f39156dda60c size=16313B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 16b175a7, 4a854c39, 8809c059, acceptOwnership, account_info_rotate_tine, allowance, approve, balanceOf, decimals, getApproved, isApprovedForAll, minted, name, owner, ownerOf, pendingOwner, razor_balance, renounceOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setWhitelist, symbol, tokenURI, totalSupply, transfer, transferFrom, transferOwnership, whitelist
+#46 ethereum 0x5dc76346f847057c8651ab4d4d01b5cd6da1b025 size=2318B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: transferFrom(address,address,uint256)
+   functions: allowance, approve, balanceOf, balanceOfOwner, decimals, name, ownerWallet, symbol, totalSupply, transfer
+#47 ethereum 0x7e292d9e6309f3024f2308b2b536331463b4dd1c size=23319B delegatecall=True flags=ERC2612 compliant=ERC20
+   ERC2612 8/9 missing: DOMAIN_SEPARATOR()
+   functions: 00000000, 000000ff, 0000013a, 00004f87, 000f4240, 0c6e3d58, 14292432, 19967b90, 273d55d2, 304950f8, 657ac0c0, 6f242ec8, 7b4b8a25, 7b9f76b5, 7ecebe00, 818c3b86, 838e1d8c, 8aefaca4, 8dc9bf28, 92e6b344, 9ea1defd, 9ea30e46, a8611680, aba83150, account_info_rotate_tine, allowance, approve, assetAddress, assetID, b5afa868, balanceOf, be79c664, buy, c2851a52, c57142f1, ce525a75, curator, d04c6983, d505accf, d9e5389d, de1edd17, decimals, decreaseAllowance, eb13a7d2, ede058df, f4813833, f496d882, factory, increaseAllowance, initialTokenPrice, name, onERC1155BatchReceived, onERC1155Received, onERC721Received, redeem, setURL, status, symbol, totalSupply, transfer, transferFrom, updateCurator, withdrawERC20
+#48 bnb 0x3498cfa7d24f7a7d9702cfc33e5fe14226ffcc99 size=15012B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: transferFrom(address,address,uint256)
+   functions: 00000000, 00000017, 00003891, 1694505e, 1dd22597, 2c1f5216, 30bb4cff, 31c2ad53, 31e79db0, 4144d9e4, 49bd5a5e, 4a74bb02, 4e3c06b1, 4fbee193, 5d098b38, 5d8f2987, 625e764c, 64b0f653, 65b8dbc0, 6843cd84, 6b67c4df, 700bb191, 7d1db4a5, 81b5e27d, 85141a77, 871c128d, 88bdd9be, 93011a99, 98118cb4, 9a7a23d6, 9c1b8af5, _totalSupply, a26579ad, a8b9d240, ad56c13c, adefd90c, afa4f3b2, allowance, approve, b62496f5, balanceOf, c0246668, c492f046, c49b9a80, c54e44eb, c6198140, circulatingSupply, claim, decimals, decreaseAllowance, e2f45605, e7841ec0, e98030c7, f27fd254, fce589d8, fe6e671a, increaseAllowance, isOpen, name, owner, renounceOwnership, setBurnFee, symbol, totalFees, totalSupply, transfer, transferOwnership
+#49 ethereum 0xde765fffd13aaebbaeb7b349a5378ea6a9b83e23 size=6847B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: account_info_rotate_tine, allowance, approve, balanceOf, d547cfb7, decimals, getApproved, isApprovedForAll, mint, minted, name, owner, ownerOf, razor_balance, revokeOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setTokenURI, setWhitelist, symbol, tokenURI, totalSupply, transfer, transferFrom, transferOwnership, whitelist
+#50 ethereum 0x3a260f3ab7f1615fcf15d1bb0a343b892543fa8d size=4904B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: approve(address,uint256)
+   functions: 1e946aa7, 75247a58, allowance, balanceOf, decimals, freeze, frozenOf, name, owner, symbol, totalSupply, transfer, transferFrom, transferOwnership
+#51 ethereum 0xb91353903a1666bf06b5e54924a6b57c7b15a14a size=12811B delegatecall=True flags=ERC2612 compliant=ERC20
+   ERC2612 8/9 missing: DOMAIN_SEPARATOR()
+   functions: 00000000, 029fc836, 1694505e, 20606b70, 30adf81f, 49bd5a5e, 6fcfff45, 782d6fe1, 7ecebe00, Owner, allowance, approve, b4b5ea57, balanceOf, c3cda520, d505accf, decimals, delegate, delegates, e7a324dc, f1127ed8, f8b45b05, ffffffff, name, renounceOwnership, symbol, totalSupply, transfer, transferFrom
+#52 ethereum 0x51741a4737db1a6676b59aa7c8af1501baae6bbd size=9211B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 18d217c3, 3bc6fd02, 519dc8d2, 86135cc6, 94c52938, account_info_rotate_tine, allowance, approve, balanceOf, d547cfb7, decimals, f275f64b, f28ca1dd, f7e0baa6, f928364c, fd959e59, getApproved, isApprovedForAll, mint, minted, name, owner, ownerOf, razor_balance, revokeOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setNameSymbol, setTokenURI, setWhitelist, symbol, tokenURI, totalSupply, transfer, transferFrom, transferOwnership, whitelist
+#53 ethereum 0xc4a1c167d1563153f7466dc55a31706f4311236c size=7690B delegatecall=False flags=ERC20 compliant=ERC165|ERC173|ERC3754|ERC4906|ERC721
+   ERC20 5/6 missing: allowance(address,address)
+   functions: 00000000, 000000e0, 000000e1, 0a85bd01, 14d4e23b, 438b6300, 5b5e139f, 780e9d63, 7f81be69, approve, balanceOf, bf7b766d, d547cfb7, getApproved, isApprovedForAll, mint, name, owner, ownerOf, renounceOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setBaseURI, setPause, supportsInterface, symbol, tokenByIndex, tokenOfOwnerByIndex, tokenURI, totalSupply, totalToken, transfer, transferFrom, transferOwnership
+#54 bnb 0x8d5ff38738109e3388e5766c489917d35fd28b87 size=3373B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: balanceOf(address)
+   functions: allowance, approve, balances, balancesOf, decimals, name, symbol, totalSupply, transfer, transferFrom
+#55 ethereum 0x55d360eb13f0ae45e49d9417e74a010ff4acf3cc size=14691B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 18d217c3, 56bb8cb6, account_info_rotate_tine, allowance, approve, balanceOf, c6682862, d547cfb7, d7c64e7f, da3ef23f, decimals, f28ca1dd, getApproved, isApprovedForAll, minted, name, owner, ownerOf, razor_balance, revokeOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setNameSymbol, setTokenURI, setWhitelist, symbol, tokenURI, totalSupply, transfer, transferFrom, transferOwnership, whitelist
+#56 ethereum 0xc99f359f73626e475ee86caab459a4b34ae93fea size=7776B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: allowance(address,address)
+   functions: DUNGEON_CREATION_LIMIT, addDungeonNewFloor, addDungeonRewards, anotherOwner1, anotherOwner2, approve, approvedFor, assignAnotherOwner1, assignAnotherOwner2, balanceOf, bid, cancelAuction, cancelAuctionWhenPaused, createAuction, createDungeon, dungeons, getAuction, getCurrentPrice, getOwnerTokens, migrateDungeon, name, nonFungibleContract, owner, ownerCut, ownerOf, ownerTokens, pause, paused, setDungeonStatus, symbol, totalSupply, transfer, transferFrom, transferOwnership, unpause, withdrawBalance
+#57 ethereum 0xcb72ed407cdb97a7161a2b567b5f50b55585ee6b size=15304B delegatecall=True flags=ERC4494 compliant=ERC165|ERC173|ERC3754|ERC4906|ERC721
+   ERC4494 12/13 missing: permit(address,uint256,uint256,bytes)
+   functions: 00000000, 00000060, 141a468c, 30adf81f, 3644e515, 7ac2ff7b, 81cb3082, approve, balanceOf, baseURI, getApproved, isApprovedForAll, mint, name, owner, ownerOf, renounceOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setBaseURI, supportsInterface, symbol, tokenByIndex, tokenOfOwnerByIndex, tokenURI, totalSupply, transferFrom, transferOwnership, version
+#58 ethereum 0x5d866a1c8ac2decfe571f1159b72fd86ed1eb1f1 size=8360B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 00000000, 18d217c3, 36fddb04, 4a62bb65, 5cce86cd, 751039fc, 8c0b5e22, aa4bde28, account_info_rotate_tine, allowance, approve, balanceOf, d547cfb7, decimals, f28ca1dd, getApproved, isApprovedForAll, minted, name, owner, ownerOf, razor_balance, revokeOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setNameSymbol, setTokenURI, setWhitelist, symbol, tokenURI, totalSupply, transfer, transferFrom, transferOwnership, whitelist
+#59 ethereum 0xae65528f139aa646aea08bdec7ba657ffd8e748e size=4683B delegatecall=True flags=ERC20 compliant=ERC165
+   ERC20 5/6 missing: allowance(address,address)
+   functions: 1fe9f877, 7840fa1a, InterfaceId_ERC165, account_info_rotate_tine, approve, balanceOf, getAllTokens, getNFTbyTokenId, name, ownerOf, pause, paused, setCEO, setNFTbyTokenId, supportsInterface, symbol, tokensOfOwner, totalSupply, transfer, transferFrom, unpause
+#60 bnb 0x9c6e00219eff99c9f892096d784ba5f21117351f size=1298B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: transferFrom(address,address,uint256)
+   functions: allowance, approve, balanceOf, balances, decimals, name, symbol, totalSupply, transfer
+#61 ethereum 0xe5deb384bd9f6879c168ace49e4c090a087be8bb size=3328B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: allowance(address,address)
+   functions: account_info_rotate_tine, approve, b8c9d25c, balanceOf, ca72a4e7, decimals, e559d86a, getAllowance, name, owner, razor_balance, symbol, totalSupply, transfer, transferFrom
+#62 bnb 0x8c6e9e4522cafaf0e9ae1a2116309feb6b0782d0 size=16752B delegatecall=True flags=ERC4906|ERC721 compliant=ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 00000000, 000000ff, 043936fa, 1ac2085f, 43bff006, 6cf623b4, adf40d99, afe7aac7, approve, balanceOf, buy, e22d925f, f6459d47, getApproved, isApprovedForAll, ownerOf, safeTransferFrom, safeTransferFrom, setApprovalForAll, tokenByIndex, tokenOfOwnerByIndex, totalSupply, transferFrom
+#63 ethereum 0xb43a8bc3f632b0f7eeabd1bd5a9d1800c33ef189 size=2765B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: allowance(address,address)
+   functions: 1a46ec82, approve, balanceOf, burn, decimals, decreaseApproval, increaseApproval, name, owner, symbol, totalSupply, transfer, transferAndCall, transferFrom
+#64 ethereum 0x12df06aef0c0d5ac1809b73ceb15da4ea651bc52 size=10721B delegatecall=True flags=ERC2612 compliant=ERC20
+   ERC2612 8/9 missing: nonces(address)
+   functions: 00000000, 0afbcdc9, 0bd7ad3b, 183fb413, 1da24f3e, 30adf81f, 3644e515, 4efecaa5, 7535d246, 75d26413, 78160376, 7df5bd3b, 88dd91a1, ae167335, allowance, approve, b16a19de, b1bf962d, b9844d8d, balanceOf, d505accf, d7020d0a, decimals, decreaseAllowance, e54f0880, f866c319, increaseAllowance, mint, name, symbol, totalSupply, transfer, transferFrom
+#65 ethereum 0x9da595e36ebf058b535f73ee6633c4fd86079079 size=4903B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: transfer(address,uint256)
+   functions: 19f46cec, 2b9bf45c, 4b13a0e0, 530bb233, 749e63d7, 74d7137a, 8b65e7b5, allowance, approve, balanceOf, burnFrom, ccf61228, decreaseAllowance, e98ea4aa, f10c3711, freezeAccount, frozenAccount, increaseAllowance, isOwner, owner, ownerBalance, pause, paused, renounceOwnership, setPrices, totalSupply, transferFrom, unfreezeAccount, unpause
+#66 bnb 0xc3eb0f083c9c1d68f29e351d22a6fa6e7cadb050 size=17449B delegatecall=True flags=ERC2612 compliant=ERC20
+   ERC2612 8/9 missing: nonces(address)
+   functions: 00000000, 00000cf0, 0afbcdc9, 0bd7ad3b, 0bdf953f, 17319873, 183fb413, 1da24f3e, 29db497d, 30adf81f, 3644e515, 4efecaa5, 65614f81, 7535d246, 75d26413, 78160376, 7b832f58, 7df5bd3b, 80031e37, 88dd91a1, 9584df28, 9dd8aad5, a15f30ac, ae167335, allowance, approve, b16a19de, b1bf962d, b2589544, b9844d8d, balanceOf, c72c4d10, ccab01a3, d505accf, d7020d0a, decimals, decreaseAllowance, e54f0880, f866c319, fc123602, increaseAllowance, mint, name, owner, renounceOwnership, symbol, totalSupply, transfer, transferFrom, transferOwnership
+#67 bnb 0x33672e0a1e3f771e1a4bab53bf13d54a7df17da0 size=12863B delegatecall=True flags=ERC2612 compliant=ERC20
+   ERC2612 7/9 missing: nonces(address), DOMAIN_SEPARATOR()
+   functions: 00000000, 000007b4, 10e95b6c, 140e1523, 1446fee5, 15e14bf6, 16bea400, 1edbcf6c, 29f32ed4, 2a8c1ddc, 353a420c, 3760a70a, 3a3e6c81, 3fbba9a6, 44d96e95, 4a960261, 4c736099, 5053e461, 51adeb57, 51bf21d8, 576fd900, 64668022, 6a39e328, 825ad607, 88f08d0a, 94def930, 97a5d5b5, 9a649edc, 9bc289f1, 9f6e1b26, a6c409f1, addMinter, allowance, approve, balanceOf, bc7513e2, burn, burnFrom, c0d7a94f, c9aff70c, d505accf, d60b347f, dab400f3, decimals, decreaseAllowance, e0cf7285, e879c19f, ec350847, epoch, f1b7cf49, ffbe3b73, implementation, increaseAllowance, initialize, isMinter, locker, mint, name, oracle, pool, renounceMinter, share, symbol, totalDebt, totalRewarded, totalSupply, transfer, transferFrom, votesFor
+#68 bnb 0xefa6c844c82b4a290176d52928fd254dd3751c60 size=13689B delegatecall=True flags=ERC20 compliant=ERC165|ERC173|ERC3754|ERC4906|ERC721
+   ERC20 5/6 missing: allowance(address,address)
+   functions: 00000000, 000000e1, 00003477, 00c75732, 0a85bd01, 118507a9, 19096c0a, 248e98d7, 29a5c75d, 30176e13, 30ee55dc, 45be7ed6, 4606e48e, 4c67204b, 5fb6ff28, 6421be53, 64c9ec6f, 7696e088, 76dafc3c, 81fdd31a, 9451c99a, 9f56e0a4, a4a8342e, a5d40175, a9f9bec3, account_info_rotate_tine, accuracy, ae5b243a, allTokens, approve, balanceOf, bf0b175e, burn, c2720623, c339d0bf, c9c775e2, ce6f5ded, d547cfb7, de3668ea, df289e57, e262f069, ffffffff, getApproved, getRandom, isApprovedForAll, name, owner, ownerMint, ownerOf, removeAdmin, renounceOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setBondAddress, supportsInterface, symbol, tokenURI, tokensOfOwner, totalBurned, totalMinted, totalSupply, transfer, transferFrom, transferOwnership, withdraw
+#69 ethereum 0x93d7d0749cd61a3bcb867dbeada7afda0f584bb0 size=1462B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: approve(address,uint256)
+   functions: allowance, balanceOf, decimals, name, symbol, totalSupply, transfer, transferFrom
+#70 bnb 0x21dfc767ae45c98807c525417059870ac2032bbf size=3373B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: allowance(address,address)
+   functions: allowances, approve, balanceOf, balances, decimals, name, symbol, totalSupply, transfer, transferFrom
+#71 ethereum 0x8df4197669cf7af9fd29d768c932251a0c2e3e94 size=6685B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 366d9a9b, 5db8f68d, 94c52938, account_info_rotate_tine, allowance, approve, balanceOf, d547cfb7, decimals, getApproved, isApprovedForAll, minted, name, owner, ownerOf, razor_balance, revokeOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setTokenURI, setWhitelist, symbol, tokenURI, totalSupply, transfer, transferFrom, transferOwnership, whitelist
+#72 ethereum 0xbd233d4ffdaa9b7d1d3e6b18cccb8d091142893a size=11027B delegatecall=True flags=ERC2612 compliant=ERC20
+   ERC2612 8/9 missing: nonces(address)
+   functions: 00000000, 0afbcdc9, 0bd7ad3b, 1ae813c7, 1da24f3e, 30adf81f, 3118724e, 3644e515, 4efecaa5, 66566efd, 7535d246, 78160376, 7df5bd3b, ae167335, allowance, approve, b16a19de, b1bf962d, b9844d8d, balanceOf, d0fc81d2, d505accf, d7020d0a, decimals, decreaseAllowance, f866c319, increaseAllowance, mint, name, symbol, totalSupply, transfer, transferFrom
+#73 ethereum 0x0cd4ad8867352b2b777b99bffc728a50500d2d96 size=1731B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: approve(address,uint256)
+   functions: allowance, balanceOf, decimals, initialSupply, mintToken, name, owner, symbol, totalSupply, transfer, transferFrom, transferOwnership
+#74 bnb 0xd0f1256f05cc7fc95dc3d4ab4ce38f015680622d size=17171B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 00000000, 18d217c3, 371b7c43, 6d25d802, 833b9499, 8b3dcabb, 8ec294a0, MAX_SUPPLY, PRICE_MULTIPLIER, account_info_rotate_tine, allowance, approve, balanceOf, c2fef48a, c45e8c7f, d547cfb7, decimals, e5226db6, f28ca1dd, f783924b, fd9ee299, getApproved, isApprovedForAll, minted, name, owner, ownerOf, razor_balance, revokeOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setNameSymbol, setTokenURI, setWhitelist, symbol, tokenURI, totalSupply, transfer, transferFrom, transferOwnership, whitelist, withdraw
+#75 ethereum 0x2b093013579a6236505ba25ee6aa48f841db2b50 size=19698B delegatecall=True flags=ERC4906|ERC721 compliant=ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 00000000, 06101917, 0ae50312, 1452cf59, 1eac03ae, 1f224b10, 2a892ea9, 33f259bf, 36bfe191, 38ea8bbc, 39a169f9, 52058d3a, 630c9086, 9944dbc6, 9bc5741f, a84c56d0, aca8a817, acbb85e5, addTrustedContract, approve, balanceOf, c9cb65e1, d50ddadc, d5b50252, d9b1539f, destroy, destroyAndSend, eb26ae76, ebbc3d46, ed69939a, edd4ea9a, exists, getApproved, getTrustedContracts, isApprovedForAll, isPaused, name, owner, ownerOf, pause, paused, reclaimEther, removeTrustedContract, safeTransferFrom, safeTransferFrom, setApprovalForAll, symbol, tokenByIndex, tokenExists, tokenOfOwnerByIndex, tokenURI, totalSupply, transferFrom, transferOwnership, unpause
+#76 bnb 0x85788caa9f0e216e029d8fc433756490dfdde87d size=3373B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: balanceOf(address)
+   functions: allowance, approve, balance0f, balances, decimals, name, symbol, totalSupply, transfer, transferFrom
+#77 ethereum 0x59fef6b5cba9d8351afcc30d687d845a1361f141 size=9531B delegatecall=False flags=ERC20 compliant=ERC165|ERC173|ERC3754|ERC4906|ERC721
+   ERC20 5/6 missing: allowance(address,address)
+   functions: 00000000, 16f0ff46, addMinter, approve, balanceOf, getApproved, isApprovedForAll, isMinter, isOwner, name, owner, ownerOf, renounceMinter, renounceOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, supportsInterface, symbol, tokenByIndex, tokenOfOwnerByIndex, tokenURI, totalSupply, transfer, transferFrom, transferOwnership
+#78 ethereum 0xba5a230e2d29e5629737484364c694381d7875e4 size=6297B delegatecall=True flags=ERC20 compliant=ERC165|ERC173|ERC3754|ERC4906|ERC721
+   ERC20 5/6 missing: allowance(address,address)
+   functions: 000000e1, 0a85bd01, 31a64bff, 4684d7e9, addMinter, approve, balanceOf, c8a2d603, claim, draw, getApproved, isApprovedForAll, isMinter, isOwner, mint, name, owner, ownerOf, renounceMinter, renounceOwnership, reset, safeTransferFrom, safeTransferFrom, setApprovalForAll, supportsInterface, symbol, tokenByIndex, tokenOfOwnerByIndex, tokenURI, totalSupply, transfer, transferAll, transferFrom, transferOwnership
+#79 ethereum 0x12403dc904edc805fd0cbeedd1049ba0c1b53a04 size=1680B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: approve(address,uint256)
+   functions: allowance, approveAndCall, balanceOf, decimals, name, standard, symbol, totalSupply, transfer, transferFrom
+#80 bnb 0xcc49322b3f3743caa91323252d10fed77a7b8df2 size=10605B delegatecall=True flags=ERC7160 compliant=ERC165|ERC173|ERC3754|ERC4906|ERC721
+   ERC7160 11/14 missing: pinTokenURI(uint256,uint256), unpinTokenURI(uint256), hasPinnedTokenURI(uint256)
+   functions: 00000000, 000000e0, 000000e1, 05c58df2, 0a85bd01, 245e41f4, 24832483, 57f7789e, 5b5e139f, 6c8b703f, 714cff56, 75d20f3b, 80ac58cd, 92179853, 980a0f2a, a98ad46c, admin, approve, balanceOf, bdb4b848, e86789a5, getApproved, getByOwner, isApprovedForAll, levelUp, mint, name, owner, ownerOf, platform, renounceOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, supportsInterface, symbol, tokenURI, transferFrom, transferOwnership
+#81 ethereum 0x647ba6e3c85733e2d8e8e571d06f43e5b5f052a3 size=2204B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: transferFrom(address,address,uint256)
+   functions: allowance, approve, balanceOf, collectExcess, decimals, filehash, name, owner, standard, symbol, totalSupply, transfer, users
+#82 bnb 0x22409b82effb9408d0e48e2d4637a558eadd0099 size=8856B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: allowance(address,address)
+   functions: 03807ee5, a12d059d, a7cafaa8, allowances, approve, balanceOf, balances, burn, burnAddress, decimals, feePercent, increaseAllowance, name, owner, ownerPercent, renounceOwnership, symbol, totalSupply, transfer, transferFrom
+#83 ethereum 0xfbd79c0a2cb29627681b1685a8d215bfbdec0124 size=2315B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: approve(address,uint256)
+   functions: allowance, balanceOf, decimals, name, symbol, totalSupply, transfer, transferFrom
+#84 ethereum 0xc191ee8e39d8e7d73d076efbc80c307a710b46a3 size=11845B delegatecall=True flags=ERC2612 compliant=ERC165|ERC173|ERC3754|ERC4906|ERC721
+   ERC2612 7/9 missing: transfer(address,uint256), allowance(address,address)
+   functions: 00000000, 0000001b, 0000001c, 000000e0, 000000e1, 000000ff, 0a85bd01, 3644e515, 5b5e139f, 7ecebe00, 80ac58cd, account_info_rotate_tine, addBurner, addMinter, addOperator, approve, balanceOf, bulkMint, burn, d505accf, da1b9e08, exists, f9613ab2, getApproved, getTokenURI, isApprovedForAll, isBurner, isMinter, isOperator, mint, name, owner, ownerOf, pause, paused, removeBurner, removeMinter, removeOperator, safeTransferFrom, safeTransferFrom, setApprovalForAll, setBaseURI, setTokenURI, supportsInterface, symbol, tokenURI, totalSupply, transferFrom, transferOwnership, unpause
+#85 ethereum 0xafee04257f9ef008bc4a66e3fcf247680f3c787e size=15537B delegatecall=True flags=ERC20 compliant=ERC165|ERC3754|ERC4906|ERC721
+   ERC20 5/6 missing: allowance(address,address)
+   functions: 00000003, 00000004, 00000005, 00000006, 00000007, 00000008, 00000009, 02101162, 10e9678b, 46195c12, 4a4b31e7, 62081c87, 92255b5b, 93596c7b, a9de9e3a, aa364eea, aad8e431, account_info_rotate_tine, approve, approveAndCall, b1d95497, balanceOf, claimOwnership, e1f9d83b, e6ef712b, e7c973a5, f4f3b200, fea4cfd5, ffc96ca4, gameAddress, getApproved, getCooldownEndTime, getCooldownIndex, getCutie, getGeneration, getGenes, getOptional, getOwner, isApprovedForAll, isOperator, metadataUrlPrefix, metadataUrlSuffix, name, ownerOf, pause, paused, razor_balance, removeOperator, restoreCutieToAddress, safeTransferFrom, safeTransferFrom, setApprovalForAll, setGame, setMetadataUrl, setOperator, setOwner, setup, supportsInterface, symbol, tokenByIndex, tokenOfOwnerByIndex, tokenURI, totalSupply, transfer, transferBulk, transferFrom, unpause, withdraw
+#86 ethereum 0x0b63cb1b6a55f6e225e60647c98aa09371237dc3 size=11096B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: totalSupply()
+   functions: 00000000, 269b4a38, 4e401a76, 55f73e32, 62134b91, 710bdbe9, 97996b67, _totalSupply, a1bd8a78, acceptOwnership, allowance, approve, approveAndCall, balanceOf, c2f3f03e, c2fe5ec2, c63b7659, cc4320b4, cidTokenSupply, companyAddress, companyName, db9d59e7, decimals, edccd105, f73acff9, fdf48f2e, name, newOwner, owner, safeAdd, safeDiv, safeMul, safeSub, symbol, transfer, transferAnyERC20Token, transferFrom, transferOwnership
+#87 bnb 0x8d89d8e4fd66cebbc7f1d12da66b905771f57a4a size=3288B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: transfer(address,uint256)
+   functions: allowance, approve, balanceOf, balances, decimals, name, symbol, totalSupply, transferFrom, transferFrom
+#88 bnb 0x9b6453b536e0d35e7516ef3fe88477e4fb1d7694 size=2577B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: transferFrom(address,address,uint256)
+   functions: allowance, approve, balanceOf, balances, decimals, name, symbol, totalSupply, transfer
+#89 bnb 0x25be87e6f8634d693dc4253996677e7788dedf56 size=3373B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: transferFrom(address,address,uint256)
+   functions: allowance, approve, balanceOf, balances, decimals, name, symbol, totalSupply, transfer, transfer
+#90 ethereum 0x2910f733d25fa63c8adc51d3742c6515427c1242 size=8193B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 207add91, 4f91e48c, 589210d9, 6caae832, 9e78fb4f, acceptOwnership, account_info_rotate_tine, allowance, approve, balanceOf, d547cfb7, decimals, e2d6f33a, f349b173, getApproved, isApprovedForAll, minted, name, owner, ownerOf, paused, pendingOwner, razor_balance, renounceOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setNameSymbol, setTokenURI, setWhitelist, symbol, tokenURI, totalSupply, transfer, transferFrom, transferOwnership, whitelist
+#91 ethereum 0xb424ca85937000cdb77d923b16ae45d0d73f7557 size=11472B delegatecall=True flags=ERC3754|ERC4906|ERC721 compliant=ERC165|ERC173
+   ERC3754 8/9 missing: balanceOf(address)
+   ERC721 9/10 missing: balanceOf(address)
+   functions: 00000000, 06ce0db8, 128bfa25, 1a5c7f92, 2c2dadbc, 36afc6fa, 475a8035, 4f8baacc, 51e32024, a546993e, approve, b0cacd43, baseURI, burn, creator, e8a3d485, f95bb91e, getApproved, isApprovedForAll, isOwner, name, onERC721Received, owner, ownerOf, safeTransferFrom, safeTransferFrom, setApprovalForAll, setSymbol, supportsInterface, symbol, tokenURI, totalSupply, transferFrom, transferFrom, transferOwnership
+#92 ethereum 0x6d9c41d12cac7bc748145cdc74541b7517a889b3 size=8312B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 00000000, 18d217c3, account_info_rotate_tine, allowance, approve, balanceOf, d547cfb7, decimals, f28ca1dd, getApproved, isApprovedForAll, minted, name, owner, ownerOf, razor_balance, revokeOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setNameSymbol, setTokenURI, setWhitelist, symbol, tokenURI, totalSupply, transfer, transferFrom, transferOwnership, whitelist
+#93 avalanche 0x46f635cc8baee611871271d0c2a0ba428d84ee00 size=10969B delegatecall=True flags=ERC2612 compliant=ERC20
+   ERC2612 8/9 missing: nonces(address)
+   functions: 00000000, 0afbcdc9, 0bd7ad3b, 183fb413, 1da24f3e, 30adf81f, 3644e515, 4efecaa5, 7535d246, 75d26413, 78160376, 7df5bd3b, 7fed67e5, 88dd91a1, ae167335, allowance, approve, b16a19de, b1bf962d, b9844d8d, balanceOf, d505accf, d7020d0a, d85d0cf3, decimals, decreaseAllowance, f866c319, increaseAllowance, mint, name, symbol, totalSupply, transfer, transferFrom
+#94 ethereum 0x20587338d0f34b6a5dcba1f7c528bbb9938f60d0 size=13647B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: allowance(address,address)
+   functions: 00000000, 00000003, 00000004, 00000005, 00000006, 00000007, 000000ff, 0228ec57, 0701d9b4, 13bdeab2, 36883e80, account_info_rotate_tine, addOwnershipChest, approve, approveRobot, b7eb2e6c, balanceOf, balanceOfRobots, buyChest, cec21acb, changeAssembly, costRecharge, d690aa26, gatherDetails, getAllAssembly, getAllDetails, getAllHead, getAllHousing, getAllLeftHand, getAllLeftLeg, getAllPelvic, getAllRightHand, getAllRightLeg, getAssembly, getDetail, getMiningDetail, getMyChest, init, name, open5Chest, openChest, owner, ownerOf, ownerOfRobot, pause, paused, razor_balance, rechargeRobot, setWallet, startMining, symbol, tokensOfOwner, totalSupply, transfer, transferFrom, transferFromRobot, transferOnWallet, transferOwnership, transferRobot, unpause
+#95 ethereum 0x0ec7e07575c4ad054e260f131779238710ff55ed size=7707B delegatecall=True flags=ERC4906|ERC721 compliant=ERC20|ERC3754
+   ERC721 9/10 missing: supportsInterface(bytes4)
+   functions: 1e70b6df, 207add91, 4f91e48c, 589210d9, 6caae832, acceptOwnership, account_info_rotate_tine, allowance, approve, balanceOf, d547cfb7, decimals, df1d7520, e2d6f33a, edf5afbf, f349b173, getApproved, isApprovedForAll, minted, name, owner, ownerOf, paused, pendingOwner, razor_balance, renounceOwnership, safeTransferFrom, safeTransferFrom, setApprovalForAll, setNameSymbol, setTokenURI, setWhitelist, symbol, tokenURI, totalSupply, transfer, transferFrom, transferOwnership, whitelist
+#96 bnb 0x5a0f77da5135eea3584aa036c26c471946610be6 size=8386B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: transferFrom(address,address,uint256)
+   functions: 7d1db4a5, _decimals, _totalSupply, allowance, approve, balanceOf, c5b37c22, decimals, e050e94f, increaseAllowance, name, owner, renounceOwnership, sendTokens, symbol, totalSupply, transfer
+#97 ethereum 0x299307a192a2b5f6aae5ca02d685925733b9a637 size=2204B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: transferFrom(address,address,uint256)
+   functions: allowance, approve, balanceOf, collectExcess, decimals, filehash, name, owner, standard, symbol, totalSupply, transfer, users
+#98 avalanche 0xadf580274de58d86c8e8d661ce77fe2821be2bc0 size=4237B delegatecall=False flags=ERC20 compliant=
+   ERC20 5/6 missing: totalSupply()
+   functions: 0dfe1681, 38ed1739, 72dfd178, 99671435, allowance, approve, balanceOf, burn, check, e8e33700, owner, setAddress, token1, transfer, transferFrom
+#99 avalanche 0x75e80319b1d9285eeeb7ebe82121cf8f8fde5a28 size=13703B delegatecall=True flags=ERC2612 compliant=ERC20
+   ERC2612 8/9 missing: DOMAIN_SEPARATOR()
+   functions: 00000000, 20606b70, 30adf81f, 6fcfff45, 782d6fe1, 7ecebe00, allowance, approve, b4b5ea57, balanceOf, c3cda520, d505accf, decimals, delegate, delegates, e7a324dc, f1127ed8, ffffffff, name, symbol, totalSupply, transfer, transferFrom
+#100 ethereum 0xd51153899a050485b12ea2f9e4accf58e6107ea5 size=5183B delegatecall=True flags=ERC20 compliant=
+   ERC20 5/6 missing: allowance(address,address)
+   functions: 2e7e3aa6, 61d3458f, 95baf247, a9a1523f, allowances, approve, balanceOf, burn, decimals, e6fe39ed, message, mint, mintBatch, name, owner, resolver, symbol, totalSupply, totalSupplyCap, transfer, transferBatch, transferFrom, transferable, updateOwner

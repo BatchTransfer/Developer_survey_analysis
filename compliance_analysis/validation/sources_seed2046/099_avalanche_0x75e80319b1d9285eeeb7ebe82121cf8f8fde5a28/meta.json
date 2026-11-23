@@ -1,0 +1,7 @@
+{
+ "where": "routescan",
+ "name": "Supreme",
+ "compiler": "v0.5.16+commit.9c3226ce",
+ "impl": "",
+ "impl_where": ""
+}
