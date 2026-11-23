@@ -28,6 +28,8 @@ The study comprises six interconnected stages:
 │   └── Specification creation years and per-ERC contract counts
 ├── Data/
 │   └── Source-code and transaction data for the ERC-20, ERC-2612, and ERC-1155 analyses
+├── specification_analysis/
+│   └── ERC_dependency_graph.png: dependency network of the analyzed ERC specifications
 ├── Json/
 │   └── Structured ERC specification requirements and dependency data
 ├── Labels_ERC-analysis_Developer-interviews_August-11-2026_analysis/
@@ -56,7 +58,7 @@ The `Json/` directory contains structured records extracted from the analyzed ER
 * Declared `requires` dependencies
 * Specification metadata and functional classifications
 
-Declared normative dependencies are maintained separately from researcher-identified conceptual interoperability relationships.
+Declared normative dependencies are maintained separately from researcher-identified conceptual interoperability relationships. `specification_analysis/ERC_dependency_graph.png` shows the resulting dependency network: nodes are ERC specifications, and edges are declared design-time dependencies or researcher-identified conceptual linkages.
 
 ## Practitioner Survey
 
