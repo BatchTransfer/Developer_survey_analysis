@@ -52,8 +52,7 @@ compliance_analysis/
 │   └── bytecode_dedup_summary.json
 ├── figures/
 │   ├── analysis_pipeline_v4.pdf/.drawio   pipeline and validation figure (built from v3 by make_pipeline_figures.py)
-│   ├── match_pct*.pdf/.png/.txt     match-% distributions (2.37M implementing, 3.8M lowest match, 1% bins)
-│   └── match_pct_plot.py, match_pct_plot_1pct.py
+│   └── match_pct*.pdf/.png/.txt     match-% distributions (2.37M implementing, 3.8M lowest match, 1% bins)
 └── validation/
     ├── new_classifier_70_no_overlap/   sample_100_seed2046.csv, labels_100_seed2046.csv, view_100_seed2046.txt, check_nonEQ_seed2046.csv
     ├── sources_seed2046/            verified Solidity source of 53 sampled contracts, index.csv, source_check.csv, source_verdicts.csv
@@ -71,8 +70,6 @@ Python 3.10+ with `openpyxl` and `matplotlib`. Run from `compliance_analysis/`.
 ```bash
 cd results/match_pct_70_no_overlap && gunzip -k *.tsv.gz && cd ../..
 python census/build_results_workbook.py && python census/verify_results_workbook.py
-python figures/match_pct_plot.py results/match_pct_70_no_overlap figures/match_pct
-python figures/match_pct_plot_1pct.py results/match_pct_70_no_overlap figures/match_pct_all_lowest_1pct
 python validation/source_check_2046.py && python validation/source_verdicts_2046.py
 ```
 
